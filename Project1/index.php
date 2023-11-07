@@ -462,7 +462,7 @@
 </header>
 <div class="content_mid">
   <div class="content_img">
-    
+    haha
   </div>
 </div>
 </body>
