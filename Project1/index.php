@@ -13,7 +13,6 @@
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="/">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/Project1/img/COMPUTER.png" class="img-fluid">
                 <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/git_project_1/Project1/img/COMPUTER.png" class="img-fluid">
             </a>
 
