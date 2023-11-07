@@ -6,14 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/Project1/index.css">
-    <link rel="stylesheet" href="/git_project_1/Project1/index.css">
+
 </head>
 <body>
 <header>
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="/">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/git_project_1/Project1/img/COMPUTER.png" class="img-fluid">
+                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/Project1/img/COMPUTER.png" class="img-fluid">
             </a>
 
             <div class="search-form">
