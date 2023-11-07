@@ -12,7 +12,7 @@
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="/">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/media/banner/logo_laptopaz (2).jpg" class="img-fluid">
+                <img alt="" src="" class="img-fluid">
             </a>
 
             <div class="search-form">
@@ -457,6 +457,5 @@
         </div>
     </div>
 </header>
-<div>haha</div>
 </body>
 </html>
