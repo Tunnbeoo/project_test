@@ -29,7 +29,8 @@
             </div>
 
             <div class="box-hotline d-flex align-items-center flex-column" style="margin-top: 12px;line-height: 25px;font-weight: bold;">
-                <p class="m-0 red text-18 text-uppercase"><i class="fa fa-phone mr-2 text-20" aria-hidden="true"></i>Hotline</p>
+                <p class="m-0 red text-18 text-uppercase">
+                  <i class="fa fa-phone mr-2 text-20" aria-hidden="true"></i>Hotline</p>
                 <p class="font-weight-bold hotline text-20 text-bold m-0"> 0825 233 233 </p>
             </div>
 
@@ -457,5 +458,13 @@
         </div>
     </div>
 </header>
+<div class="content_mid">
+  <div class="content_img">
+
+  </div>
+  <div class="content_product">
+
+  </div>
+</div>
 </body>
 </html>

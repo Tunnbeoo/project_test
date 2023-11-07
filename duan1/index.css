@@ -1284,7 +1284,6 @@ p.main-title.mb-0::before {
 .detail-type-2 #sync2 {
     width: 75%;
     display: inline-block;
-    float: left;
 }
 
 .detail-type-2 #sync2 .item {
@@ -1609,7 +1608,7 @@ p.main-title.mb-0::before {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
-    -ms-flex-wrap: wrap;
+
     border-bottom: 1px solid #e1e1e1;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -1677,7 +1676,6 @@ p.main-title.mb-0::before {
     position: relative;
     -webkit-box-shadow: 0 0 10px 0 #ccc;
     box-shadow: 0 0 10px 0 #ccc;
-    -webkit-transition: 0.3s ease-in-out;
 }
 
 #img_thumb li a {
@@ -2020,8 +2018,6 @@ p.main-title.mb-0::before {
     padding: 5px;
 }
 
-.nd a {
-}
 
 .nd {
     line-height: 1.45;

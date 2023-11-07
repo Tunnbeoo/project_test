@@ -2915,3 +2915,16 @@ button.slick-arrow {
     margin: 10px auto;
     border-radius: 5px;
 }
+.content_mid{
+    width: 1200px;
+    height: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    background-color: #007bff;
+}
+.content_mid .content_img{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
