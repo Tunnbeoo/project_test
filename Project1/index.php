@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/git_project_1/Project1/index.css">
-=======
     <link rel="stylesheet" href="/Project1/index.css">
->>>>>>> 4f7968604bd508e186a2046a98948538b059ede2
 </head>
 <body>
 <header>
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="/">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/media/banner/logo_laptopaz (2).jpg" class="img-fluid">
+                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/Project1/img/COMPUTER.png" class="img-fluid">
             </a>
 
             <div class="search-form">
