@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/Project1/index.css">
+    <link rel="stylesheet" href="/git_project_1/Project1/index.css">
 </head>
 <body>
 <header>
@@ -458,6 +459,10 @@
         </div>
     </div>
 </header>
-<div>haha</div>
+<div class="content_mid">
+  <div class="content_img">
+    
+  </div>
+</div>
 </body>
 </html>
