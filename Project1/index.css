@@ -2928,3 +2928,25 @@ button.slick-arrow {
     height: 400px;
     background-color: red;
 }
+footer{
+    width: 1200px;
+    height: 100%;
+    background-color: wheat;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fa-brands {
+  color: white;
+  background: #181818;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 10px;
+  width: 40px;
+  text-align: center;
+  margin-top: 140px;
+  
+}
+.khung1{
+    
+}

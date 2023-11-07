@@ -463,6 +463,20 @@
   <div class="content_img">
   
   </div>
+  <script>
+
+  </script>
 </div>
 </body>
+<footer>
+  <div class="khung1">
+  <h6>CÔNG TY TNHH TIN HỌC CÔNG NGHỆ AZ VIỆT NAM</h6>
+  <p>Địa chỉ : số 155 Quang Trung, Gò Vấp, Tp. HCM</p>
+  <p>Hotline : 0909090909</p>
+  <p>Email : Xcomputer@gmail.com</p>
+  <a href=""><i class="fa-brands fa-facebook"></i></a>
+  <a href=""><i class="fa-brands fa-youtube"></i></a>
+  <a href=""><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+</footer>
 </html>
