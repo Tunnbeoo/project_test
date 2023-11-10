@@ -469,14 +469,102 @@
 </div>
 </body>
 <footer>
-  <div class="khung1">
-  <h6>CÔNG TY TNHH TIN HỌC CÔNG NGHỆ AZ VIỆT NAM</h6>
-  <p>Địa chỉ : số 155 Quang Trung, Gò Vấp, Tp. HCM</p>
-  <p>Hotline : 0909090909</p>
-  <p>Email : Xcomputer@gmail.com</p>
-  <a href=""><i class="fa-brands fa-facebook"></i></a>
-  <a href=""><i class="fa-brands fa-youtube"></i></a>
-  <a href=""><i class="fa-brands fa-tiktok"></i></a>
-  </div>
+<div class="footer-link">
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                <div class="block block-links">
+                    <ul class="list-unstyled">
+                    <h6><b>CÔNG TY TNHH TIN HỌC CÔNG NGHỆ AZ VIỆT NAM</b></h6>
+                        <li>Địa chỉ: Số 18, ngõ 121, Thái Hà, Đống Đa, Hà Nội</li>
+                        <li>Hotline: 0825 233 233 </li>
+                        <li>Email: hotroxcomputer@gmail.com</li>
+                    	<li class="share">
+                    		<a href="https://www.facebook.com/laptopazvietnam" target="_blank"><i class="fab fa-facebook-f"></i></a>
+               				<a href="https://www.youtube.com/c/LAPTOPAZREVIEW" target="_blank"><i class="fab fa-youtube"></i></a>
+                    		<a href="https://www.tiktok.com/@laptopaz" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    	</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="block block-links">
+                    <ul class="list-unstyled">
+                    <h6><b> THÔNG TIN CÔNG TY </b></h6>
+                        <li><a href="/gioi-thieu">Giới thiệu công ty</a></li>
+                        <li><a href="javascript:;">Tuyển dụng</a></li>
+                        <li><a href="tel:0989624004">Gửi góp ý, khiếu nại</a></li>
+                    	<li class="baohanh-item">
+                    		<a href="http://www.online.gov.vn/Home/WebDetails/76577?AspxAutoDetectCookieSupport=1" class="thongbaobct"><img src="/template/t2021/images/bct.png"></a>
+                    		
+                    	</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="block block-links">
+                    <ul class="list-unstyled">
+                    <h6><b> CHÍNH SÁCH CÔNG TY </b></h6>
+                        <li><a href="/chinh-sach-chat-luong.html">Chính sách chất lượng</a></li>
+                        <li><a href="/chinh-sach-bao-tri-bao-hanh.html">Chính sách bảo hành</a></li>
+                        <li><a href="/chinh-sach-doi-tra-hang.html">Chính sách đổi trả</a></li>
+                    	<li><a href="/chinh-sach-bao-mat-thong-tin.html">Chính sách bảo mật thông tin</a></li>
+                     <li><a href="/chinh-sach-van-chuyen.html">Chính sách vận chuyển</a></li>
+                    <li><a href="/huong-dan-mua-hang-thanh-toan.html">Hướng dẫn mua hàng- thanh toán</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="block block-social">
+                    <ul class="list-inline mb-25">
+                        <li class="support-item nd-01">
+                                <div class="items">
+                                    <div class="icon--phone">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="content--support">
+                                        <span>HOTLINE</span>
+                    					<a href="tel:0825233233">
+                    						<span>0825 233 233</span>
+                    					</a>
+                                    </div>
+                                </div>
+                            </li>
+                    	
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="block block-links">
+                    <ul class="list-unstyled">
+                    <h6><b> HỆ THỐNG CỬA HÀNG Xcomputer </b></h6>
+                    	<li><b>Xcomputer cơ sở Thái Hà</b></li>
+                        <li>Số 18, ngõ 121, Thái Hà, Đống Đa, Hà Nội</li>
+                    	<li><a href="tel:0825233233">Hotline : 0825 233 233</a></li>
+                     	<li>Bán hàng: Từ 8h30 - 21h30</li>
+                    <li>Kỹ thuật: Từ 8h30 - 12h &amp; 13h30 - 17h30</li>
+                    	<li><a href="https://goo.gl/maps/oqb2Au69ihA2Ezmo7" target="_blank">Xem chỉ đường</a></li>
+                    </ul>
+                </div>
+            </div>        
+           <div class="col-lg-3 col-sm-6">
+                <div class="block block-links">
+                    <ul class="list-unstyled">
+                    <h6><b> HỆ THỐNG CỬA HÀNG Xcomputer </b></h6>
+                    	<li><b>Xcomputer cơ sở Hà Đông</b></li>
+                        <li>Số 56 Trần Phú, Hà Đông, Hà Nội</li>
+                        <li><a href="tel:0825233233">Hotline: 0825 233 233</a></li>
+                     	<li>Bán hàng: Từ 8h30 - 21h30</li>
+                    <li>Kỹ thuật: Từ 8h30 - 12h &amp; 13h30 - 17h30</li>
+                    	<li><a href="https://goo.gl/maps/Lwnp2ZwvdFWNgksz9" target="_blank">Xem chỉ đường</a></li>
+                    </ul>
+                </div>
+            </div>           
+                    
+                    
+        </div>
+        <div class="h_line"></div>
+    </div>
+</div>
 </footer>
 </html>
