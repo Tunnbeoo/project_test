@@ -469,14 +469,42 @@
 </div>
 </body>
 <footer>
-  <div class="khung1">
-  <h6>CÔNG TY TNHH TIN HỌC CÔNG NGHỆ AZ VIỆT NAM</h6>
-  <p>Địa chỉ : số 155 Quang Trung, Gò Vấp, Tp. HCM</p>
-  <p>Hotline : 0909090909</p>
-  <p>Email : Xcomputer@gmail.com</p>
-  <a href=""><i class="fa-brands fa-facebook"></i></a>
-  <a href=""><i class="fa-brands fa-youtube"></i></a>
-  <a href=""><i class="fa-brands fa-tiktok"></i></a>
-  </div>
-</footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>CÔNG TY TNHH CÔNG NGHỆ VIỆT NAM</h3>
+                    <p>Địa chỉ : số 155 Quang Trung, Gò Vấp, Tp. HCM</p>
+                    <p>Hotline : 0909090909</p>
+                    <p>Email : Xcomputer@gmail.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section links">
+                    <h3>Thông tin công ty</h3>
+                    <ul>
+                        <li><a href="#">Giới thiệu công ty</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Gửi góp ý, khiếu nại</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section links">
+                    <h3>Chính sách công ty</h3>
+                    <ul>
+                        <li><a href="#">Chính sách giới thiệu</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                        <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng - thanh toán</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+    </footer>
 </html>

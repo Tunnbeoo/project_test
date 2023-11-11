@@ -2947,3 +2947,50 @@ footer{
   margin-top: 140px;
   
 }
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    padding: 20px 0;
+    text-align:start;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 400px;
+    color: black;
+}
+
+.social-links a {
+    color: rgb(0, 0, 0)e0e;
+    margin-right: 10px;
+    size: 100px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 8px;
+}
+.links h3{
+    color: #000;
+}
+.about h3{
+    color: #000;
+}
+.social-links{
+    font-size: xx-large;
+}
