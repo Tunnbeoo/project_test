@@ -125,34 +125,32 @@ li{
     margin-right: 10px;
 }
 .product_list_option>ul>li>.checkbox-option{
-    /* width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    background: #fff;
-    border: 2px solid;
-    position: relative;
-    margin-right: 3px; */
-}
-.product_list_option>ul>li>.checkbox-option>a{
-    width: auto;
-    height: auto;
-}
-/* .product_list_option .checkbox-option{
     width: 15px;
     height: 15px;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: inline-block;
     background: #fff;
     border: 2px solid;
     position: relative;
     margin-right: 3px;
-} */
+}
+.product_list_option>ul>li>.checkbox-option>a{
+    width: auto;
+    height: auto;
+}
+.product_list_option .checkbox-option{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #fff;
+    border: 2px solid;
+    position: relative;
+    margin-right: 3px;
+}
 /* .checkbox-option{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    display: inline-block;
     background: #fff;
     border: 2px solid;
     position: relative;
