@@ -3044,3 +3044,21 @@ img {
         opacity: 1;
     }
 }
+.quangcao{
+    position: absolute;
+    width: 350px;
+    left: 720px;
+    height: 200px;
+    
+}
+.allquangcao{
+    position: relative;
+}
+.quangcao2{
+    position: absolute;
+    width: 350px;
+    left: 720px;
+    top: 197px;
+    height: 200px;
+   
+}

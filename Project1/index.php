@@ -460,11 +460,14 @@
     </div>
 </header>
 <div class="content_mid">
-  <div class="content_img">
-  
-  </div>
-  <div>
-    
+ 
+  <div class="allquangcao">
+      <div class="quangcao">
+        <img src="/Project1/img/quangcao4.webp" alt="">
+      </div>
+      <div class="quangcao2">
+        <img src="/Project1/img/quangcao5.jpg" alt="">
+      </div>
   </div>
   <div class="slideshow-container">
         <div class="mySlides fade">
