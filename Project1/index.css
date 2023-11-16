@@ -3008,7 +3008,7 @@ img {
     width: 100%;
 }
 
-.prev,
+/* .prev,
 .next {
     position: absolute;
     top: 50%;
@@ -3020,10 +3020,10 @@ img {
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-}
+} */
 
 .next {
-    right: 0;
+    right: 30px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -3053,6 +3053,8 @@ img {
 }
 .allquangcao{
     position: relative;
+    left: 60px;
+
 }
 .quangcao2{
     position: absolute;
@@ -3099,14 +3101,41 @@ img {
     padding: 0 10px;
     text-align: justify;
 }
-
-
+.product-list{
+    width: 900px;
+    text-transform:uppercase;
+    padding: 5px;
+    margin-right: 10px;
+    word-spacing: 5px;
+    inline-block
+}
 .title{
     background-color: #2b80dd;
     border-radius: 0px 30px 0px 0px;
+    width: 280px;
 }
-.pro-head .d-flex{
+.title>h5{
+    width: 280px;
+    height: 42px;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding: 0 40px 0 24px;
+}
+.title>h5>a{
+    text-align: center;
+    color: #fff;
+}
+.pro-head{
     background-color:#ddd ;
     top: 15px;
-        
+    width: 100%;
+    margin-top: 30px;
+}
+.container-product{
+    width: 1200px !important; 
+    max-width: 1200px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right:auto ;
 }
