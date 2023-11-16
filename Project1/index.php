@@ -488,11 +488,21 @@
     </div>
 
     <script src="/Project1/script.js"></script>
-  <script>
-
-  </script>
 </div>
+<div class="sanpham">
+<section class="product-container">
+        <div class="product">
+            <img src="product1.jpg" alt="Sản phẩm 1">
+            <h2>Tên Sản Phẩm 1</h2>
+            <p class="price">$100</p>
+            <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
+            <button class="btn">Mua Ngay</button>
+        </div>
 
+        <!-- Thêm các sản phẩm khác tương tự -->
+
+    </section>
+  </div>
 </body>
 <footer>
         <div class="container">
