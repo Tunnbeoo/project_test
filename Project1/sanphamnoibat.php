@@ -10,9 +10,6 @@ $sanphamnoibat = $conn->query($sql);
    }
 ?>
 <style>
-  .sanpham{
-
-  }
   .product-container{
     width: 294px;
     height: 240px;
