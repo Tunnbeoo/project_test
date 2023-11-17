@@ -3065,14 +3065,15 @@ img {
 .product-container {
     justify-content: space-around;
     padding: 20px;
-    display: flex;
+    display:inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .product {
-    width: 300px;
+    width: 200px;
     margin: 20px;
+    max-height: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -3137,4 +3138,12 @@ img {
     padding-right: 10px;
     margin-left: auto;
     margin-right:auto ;
+}
+.sanpham{
+    width:auto;
+    height: 1440px;
+    display: block;
+}
+.sanpham .product{
+    transition: transform 0.3s ease-in-out;
 }
