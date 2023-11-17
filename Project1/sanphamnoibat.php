@@ -1,3 +1,4 @@
+
 <?php
 try {
   $sql = "SELECT id_sp, ten_sp, gia, hinh
@@ -40,7 +41,6 @@ try {
   </div>
 
 
-  <div class="sanpham">
     <?php foreach ($sanphamnoibat as $sp) { ?>
       <section class="product-container">
         <div class="product">
@@ -55,4 +55,3 @@ try {
       </section>
   </div>
 <?php } ?>
-</div>
