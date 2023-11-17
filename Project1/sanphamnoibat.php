@@ -9,6 +9,29 @@ $sanphamnoibat = $conn->query($sql);
         die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
    }
 ?>
+<style>
+  .sanpham{
+
+  }
+  .product-container{
+    width: 294px;
+    height: 240px;
+    padding: 5px;
+    border: 5px solid #f5f5f5;
+    background-color: #fff;
+    float: left;
+    padding-bottom: 18px;
+  }
+  .product{
+    width: 294px;
+    height: auto;
+  }
+  .product>a>img{
+    width: 235px;
+    height: 235px;
+    margin: 0 19px 0 19px;
+  }
+</style>
 <div class="container-product">
               <div class="pro-head d-flex">
                                   <div class="title">
@@ -42,18 +65,22 @@ $sanphamnoibat = $conn->query($sql);
 
                             
                 <div class="sanpham">
-                <?php foreach ($sanphamnoibat as $sp) { ?>
-              <section class="product-container">
-                      <div class="product">
-                      <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"> <img src="<?php echo $sp[3]?>"> </a>
-                          <h2><a href="index.php?page=sp&id=<?php echo $sp[0] ?>"><?php echo $sp[1]?></a></h2>
-                          <p class="price"><?php echo $sp[2]?>VND</p>
-                          <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
-                          
+                      <?php foreach ($sanphamnoibat as $sp) { ?>
+                          <section class="product-container">
+                                <div class="product">
+                                <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"> 
+                                  <img src="<?php echo $sp[3]?>"> 
+                                </a>
+                                    <h2>
+                                      <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"><?php echo $sp[1]?></a>
+                                    </h2>
+                                    <p class="price"><?php echo $sp[2]?>VND</p>
+                                    <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
+                                    
 
-                      <!-- Thêm các sản phẩm khác tương tự -->
+                                <!-- Thêm các sản phẩm khác tương tự -->
 
-                  </section>
+                            </section>
                   </div>
                   <?php } ?>
         </div>
