@@ -1,3 +1,11 @@
+<?php
+session_start();
+ require_once "functions.php"; ?>
+<?php if (isset($_GET['page'])==true){
+    $page = $_GET['page'];
+    $page = strip_tags($page);
+}
+else $page = "" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/Project1/index.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <body>
@@ -13,7 +21,7 @@
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="/">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="/Project1/img/COMPUTER.png" class="img-fluid">
+                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="img/COMPUTER.png" class="img-fluid">
             </a>
 
             <div class="search-form">
@@ -461,80 +469,28 @@
 </header>
 <div class="content_mid">
  
-<div class="allquangcao">
+  <div class="allquangcao">
       <div class="quangcao">
-        <img src="/Project1/img/quangcao4.webp" alt="">
+        <img src="img/quangcao4.webp" alt="">
       </div>
       <div class="quangcao2">
-        <img src="/Project1/img/quangcao5.jpg" alt="">
+        <img src="img/quangcao5.jpg" alt="">
       </div>
-  
-  <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="/Project1/img/quangcao1.png" alt="Quảng cáo 1">
-        </div>
-
-        <div class="mySlides fade">
-            <img src="/Project1/img/quangcao2.png" alt="Quảng cáo 2">
-        </div>
-        <div class="mySlides fade">
-            <img src="/Project1/img/quangcao3.png" alt="Quảng cáo 3">
-        </div>
- </div>
-        <!-- Thêm các div với hình ảnh khác tương tự -->
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-
-    <script src="/Project1/script.js"></script>
-    <div class="container-product">
-              <div class="pro-head d-flex">
-                                  <div class="title">
-                                      <h5>
-                                        <a href="/laptop-van-phong.html">HỌC TẬP - VĂN PHÒNG</a>
-                                      </h5>
-                                  </div>
-                                  <div class="filter-price d-flex align-items-center">
-                                    <div class="product-list">   
-                                          <h6><span>Mức giá:</span></h6>
-                                          <ul class="d-flex m-0 list-unstyled">
-                                            <li>
-                                              <a href="/laptop-mong-nhe.html?max=10000000&amp;min=5000000">5 Triệu - 10 Triệu</a>
-                                            </li>
-                                            <li>
-                                              <a href="/laptop-mong-nhe.html?max=20000000&amp;min=10000000">10 Triệu - 20 Triệu</a>
-                                            </li>
-                                            <li>
-                                              <a href="/laptop-mong-nhe.html?max=30000000&amp;min=20000000">20 Triệu - 30 Triệu</a>
-                                            </li>
-                                            <li>
-                                              <a href="/laptop-mong-nhe.html?max=40000000&amp;min=30000000">30 Triệu - 40 Triệu</a>
-                                            </li>
-                                            <li>
-                                              <a href="/laptop-mong-nhe.html?max=400000000&amp;min=40000000">Trên 40 Triệu</a>
-                                            </li>
-                                          </ul>
-                                      </div> 
-                                  </div>
-                              </div>
-
-                              
-                <div class="sanpham">
-              <section class="product-container">
-                      <div class="product">
-                          <img src="product1.jpg" alt="Sản phẩm 1">
-                          <h2>Tên Sản Phẩm 1</h2>
-                          <p class="price">$100</p>
-                          <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
-                          
-
-                      <!-- Thêm các sản phẩm khác tương tự -->
-
-                  </section>
-                  </div>
-        </div>
   </div>
+  <div class="slideshow-container">
+    <?php switch($page){
+                case "sp" : require_once "sp_chitiet.php"; break;
+                case "loai" : require_once "sp_trongloai.php"; break;
+                case "cart" : require_once "giohang.php"; break;
+                case "dangky" : require_once "dangky.php"; break;
+                case "dangnhap" : require_once "dangnhap.php"; break;
+                case "doipass" : require_once "doipass.php"; break;
+                default : require_once "home.php";
+            } 
+            ?>
+  
+</div>
+
 </body>
 <footer>
         <div class="container">
