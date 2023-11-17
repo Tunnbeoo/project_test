@@ -476,11 +476,11 @@ else $page = "" ?>
       <div class="quangcao2">
         <img src="img/quangcao5.jpg" alt="">
       </div>
-  </div>
-  <div class="slideshow-container">
+  
+    <div class="slideshow-container">
     <?php switch($page){
                 case "sp" : require_once "sp_chitiet.php"; break;
-                case "loai" : require_once "sp_trongloai.php"; break;
+                case "loai" : require_once "spy_trongloai.php"; break;
                 case "cart" : require_once "giohang.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
                 case "dangnhap" : require_once "dangnhap.php"; break;
@@ -489,8 +489,8 @@ else $page = "" ?>
             } 
             ?>
   
-</div>
-
+    </div>
+  </div>
 </body>
 <footer>
         <div class="container">
