@@ -40,9 +40,9 @@ try {
     </div>
   </div>
 
-
+  <section class="product-container">
     <?php foreach ($sanphamnoibat as $sp) { ?>
-      <section class="product-container">
+      
         <div class="product">
           <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"> <img src="<?php echo $sp[3] ?>"> </a>
           <h2><a href="index.php?page=sp&id=<?php echo $sp[0] ?>"><?php echo $sp[1] ?></a></h2>
@@ -52,6 +52,7 @@ try {
 
           <!-- Thêm các sản phẩm khác tương tự -->
 
-      </section>
+      
   </div>
 <?php } ?>
+</section>

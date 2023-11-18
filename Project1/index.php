@@ -490,10 +490,10 @@ else $page = "" ?>
             ?>
   
     </div>
-  </div>
+  
 </body>
 <footer>
-        <div class="container">
+        <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section about">
                     <h3>CÔNG TY TNHH CÔNG NGHỆ VIỆT NAM</h3>
@@ -531,4 +531,5 @@ else $page = "" ?>
         </div>
 
     </footer>
+  </div>
 </html>
