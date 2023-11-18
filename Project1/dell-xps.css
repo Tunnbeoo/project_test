@@ -9,7 +9,7 @@
     transform: translateY(37px);
     font-size: larger;
 }
-.product{
+.product-item{
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -138,15 +138,15 @@ li{
     width: auto;
     height: auto;
 }
-.product_list_option .checkbox-option{
-    /* width: 15px;
+/* .product_list_option .checkbox-option{
+    width: 15px;
     height: 15px;
     border-radius: 50%; 
     background: #fff;
     border: 2px solid;
     position: relative;
-    margin-right: 3px; */
-}
+    margin-right: 3px;
+} */
 .product_list_option>ul>li>.checkbox-option>a>span{
     width: 185px;
     height: 45px;
@@ -218,12 +218,15 @@ li{
     margin: 10px 0;
 }
 .title{
+    height: 23px;
+    width: 280px;
     font-size: 15px;
     text-align: center;
     display: block;
     color: #e00;
     margin: 0;
     padding: 0;
+    background-color: #fff;
 }
 .list-unstyled{
     padding-left: 0;
@@ -277,6 +280,6 @@ li{
     border-bottom: 2px solid #2b80dd;
     margin-bottom: -1px;
 }
-.main-content{
+/* .main-content{
 
-}
+} */
