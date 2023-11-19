@@ -9,6 +9,7 @@ try {
   die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
 }
 ?>
+<link rel="stylesheet" href="index.css">
 
 <div class="container-product">
   <div class="pro-head d-flex">

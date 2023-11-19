@@ -20,7 +20,7 @@ else $page = "" ?>
 <header>
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
-            <a class="logo" href="/">
+            <a class="logo" href="index.php">
                 <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="img/COMPUTER.png" class="img-fluid">
             </a>
 
@@ -45,7 +45,7 @@ else $page = "" ?>
 
             <div class="align-items-center cart d-flex flex-column mt25 position-relative">
                 <i class="fa fa-shopping-cart text-24 red" aria-hidden="true"></i>
-                <a href="/cart" class="text-16"> Giỏ hàng </a>
+                <a href="add-card.php" class="text-16"> Giỏ hàng </a>
                 <span class="cart-quantity-counter" id="count_shopping_cart_store">0</span>
             </div>
         </div>
