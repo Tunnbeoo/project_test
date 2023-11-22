@@ -24,3 +24,16 @@ function layxemnhieu(){
              die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
         }
 }
+function laysp_chitiet($id = 0 ){
+    global $conn;
+    try{
+        $sql="SELECT sanpham.id_sp, ten_sp, gia, gia_km,hinh,ngay,RAM,CPU,Dia,Mausac,Cannang
+        FROM sanpham, sanphamchitiet
+        WHERE sanpham.id_sp=sanphamchitiet.id_sp AND sanpham.id_sp=$id";
+     $sp = $conn->query($sql);
+     return $sp;
+        }
+        catch(PDOException $e){
+             die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
+        }
+}

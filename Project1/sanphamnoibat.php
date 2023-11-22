@@ -59,3 +59,16 @@ try {
   </div>
 <?php } ?>
 </section>
+<script>
+   function chonsp(id,ten,hinh,gia){
+      let cart = JSON.parse(localStorage.getItem('cart'));
+      if(cart==null) cart = [];
+      index = cart.findIndex(sp=>sp[0]==id);
+      if ( index ==-1){
+         cart.push([id,ten,hinh,gia,soluong=1]);
+      }else{
+         cart[index][4]++;
+      }
+      localStorage.setItem("cart", JSON.stringify(cart));
+   }
+</script>

@@ -2929,11 +2929,12 @@ button.slick-arrow {
     height: 400px;
     background-color: red;
 }
+
 footer{
     width: 1470px;
     height: 300px;
     position: absolute;
-left: 0%;
+left: 0px;
 }
 .fa-brands {
   color: white;
