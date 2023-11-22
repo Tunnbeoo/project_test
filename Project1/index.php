@@ -45,7 +45,7 @@ else $page = "" ?>
 
             <div class="align-items-center cart d-flex flex-column mt25 position-relative">
                 <i class="fa fa-shopping-cart text-24 red" aria-hidden="true"></i>
-                <a href="add-card.php" class="text-16"> Giỏ hàng </a>
+                <a href="test_add-card.php" class="text-16"> Giỏ hàng </a>
                 <span class="cart-quantity-counter" id="count_shopping_cart_store">0</span>
             </div>
         </div>

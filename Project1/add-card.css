@@ -20,6 +20,11 @@ td{
     display: table-cell;
     vertical-align: inherit;
 }
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
 button, input,optgroup,
 select, textarea{
     margin: 0;
@@ -39,4 +44,7 @@ b, strong{
 .space_10{
     height: 10px;
     clear: both;
+}
+.table-cell{
+    border-collapse:collapse ;
 }
