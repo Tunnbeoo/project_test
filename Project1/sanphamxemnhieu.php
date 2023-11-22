@@ -1,4 +1,3 @@
-
 <?php
 try {
   $sql = "SELECT id_sp, ten_sp, gia, hinh
