@@ -67,7 +67,7 @@ else $page = "" ?>
     <div class="slideshow-container">
     <?php switch($page){
                 case "sp" : require_once "chitietsp.php"; break;
-                case "loai" : require_once "sp_trongloai.php"; break;
+                case "sptrongloai" : require_once "sptrongloai.php"; break;
                 case "cart" : require_once "giohang.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
                 case "dangnhap" : require_once "dangnhap.php"; break;
@@ -75,8 +75,8 @@ else $page = "" ?>
                 default : require_once "home.php";
             } 
             ?>
-  
     </div>
+  </div>
   </div>
 </body>
 <footer>

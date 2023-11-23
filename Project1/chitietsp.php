@@ -21,7 +21,7 @@ $sp = $kq-> fetch();
                   <div class="product_new">
                     <div class="product_detail">
                       <div class="product_detail_img">
-                        <img src="/Project1/img/2487_laptopaz_dell_xps_9520_1.jpg" alt="">
+                      <img src="<?php echo $sp['hinh'] ;?>" alt="">
                       </div>
                       <div class="product_small_img">
                         <li><a href=""><img src="/Project1/img/2487_laptopaz_dell_xps_9520_1.jpg" alt=""></a></li>
@@ -34,7 +34,7 @@ $sp = $kq-> fetch();
                     </div>
                     <div class="product_colum">
                         <div class="product_colum_text">
-                          <span>47.990.000</span>
+                          <span><?php echo $sp['gia'] ?>VND</span>
                           <p style="margin-bottom: 0.5rem;"><strong>Bảo hành:</strong> 12 tháng Xcomputer</p>
                           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>
                           <p><strong>Cấu hình:</strong></p>

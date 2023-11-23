@@ -50,3 +50,29 @@ function layloaisp(){
              die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
         }
 }
+function laysp_trongloai($id=0, $page_num=1 , $page_size=9 ){
+    global $conn;
+    try{
+        $start_row = ($page_num-1)* $page_size;
+        $sql="SELECT id_sp, ten_sp, gia,hinh,ngay
+        FROM sanpham WHERE id_loai=$id 
+        ORDER BY ngay DESC LIMIT $start_row, $page_size";
+     $sp = $conn->query($sql);
+     return $sp;
+        }
+        catch(PDOException $e){
+             die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
+        }
+}
+function laytenloai($id = 0 ){
+    global $conn;
+    try{
+        $sql="SELECT ten_loai FROM loai WHERE id_loai=$id ";
+     $kq = $conn->query($sql);
+     $row = $kq->fetch();
+     return $row['ten_loai'];
+        }
+        catch(PDOException $e){
+             die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
+        }
+}
