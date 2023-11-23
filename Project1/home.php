@@ -8,7 +8,11 @@
         </div>
         <div class="mySlides fade">
             <img src="img/quangcao3.png" alt="Quảng cáo 3">
+            
+            
         </div>
+        
+        
 
         <!-- Thêm các div với hình ảnh khác tương tự -->
 
