@@ -1,3 +1,8 @@
+<?php 
+
+$loaisp_arr = layloaisp();
+
+?>
 <div class="menu" id="menu">
         <div class="container">
             <div class="d-flex position-relative menu-list">
@@ -9,133 +14,19 @@
                       <div class="sub_filter">
                         <div class="list-unstyled sub_list-attr list_2col m-0 p-0 d-flex flex-wrap"> 
                             <div class="danhmuc-2">
-                              <a href="/laptop-dell-moi.html" title="Laptop Dell Mới" class="title-danhmuc-2">Laptop Dell Mới</a>
+                              
                               <div class="danhmuc-3 d-flex flex-wrap">
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-alienware.html" title="Dell Alienware">Dell Alienware</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-inspiron.html" title="Dell Inspiron">Dell Inspiron</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-precision.html" title="Dell Precision">Dell Precision</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-latitude.html" title="Dell Latitude">Dell Latitude</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/Project1/dell-xps.html" title="Dell XPS">Dell XPS</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-g-seri.html" title="Dell G-Seri">Dell G-Seri</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/dell-vostro.html" title="Dell Vostro">Dell Vostro</a>
+                                <?php foreach($loaisp_arr as $loaisp) { ?>
+        <li>
+            <a href="index.php?page=loai&id=<?php echo $loaisp[0]?>">
+            <?php echo $loaisp [1]?></a>
+        </li>
+<?php } ?>
                                 </div>
                               </div>
                           	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-lenovo-moi.html" title="Laptop Lenovo Mới" class="title-danhmuc-2">Laptop Lenovo Mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/lenovo-ideapad.html" title="Lenovo Ideapad">Lenovo Ideapad</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/lenovo-legion.html" title="Lenovo Legion">Lenovo Legion</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/lenovo-thinkbook.html" title="Lenovo ThinkBook">Lenovo ThinkBook</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/lenovo-thinkpad.html" title="Lenovo Thinkpad">Lenovo Thinkpad</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/lenovo-yoga.html" title="Lenovo Yoga">Lenovo Yoga</a>
-                                </div>
-                              </div>
-                          	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-acer-moi-100.html" title="Laptop Acer Mới" class="title-danhmuc-2">Laptop Acer Mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/acer-aspire.html" title="Acer Aspire">Acer Aspire</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/acer-predator.html" title="Acer Predator">Acer Predator</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/acer-nitro.html" title="Acer Nitro">Acer Nitro</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/acer-swift.html" title="Acer Swift">Acer Swift</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/acer-spin.html" title="Acer Spin">Acer Spin</a>
-                                </div>
-                              </div>
-                          	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-hp-moi.html" title="Laptop HP Mới" class="title-danhmuc-2">Laptop HP Mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-elitebook.html" title="HP Elitebook">HP Elitebook</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-omen.html" title="HP Omen">HP Omen</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-spectre.html" title="HP Spectre">HP Spectre</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-envy.html" title="HP Envy">HP Envy</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-pavilion.html" title="HP Pavilion">HP Pavilion</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-zbook.html" title="HP Zbook">HP Zbook</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/hp-probook.html" title="HP Probook">HP Probook</a>
-                                </div>
-                              </div>
-                          	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-asus-moi.html" title="Laptop Asus Mới" class="title-danhmuc-2">Laptop Asus Mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/asus-tuf.html" title="Asus Tuf">Asus Tuf</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/asus-vivobook.html" title="Asus VivoBook">Asus VivoBook</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/asus-zenbook.html" title="Asus ZenBook">Asus ZenBook</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/asus-rog.html" title="Asus Rog">Asus Rog</a>
-                                </div>
-                              </div>
-                          	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-msi-moi.html" title="Laptop MSI Mới" class="title-danhmuc-2">Laptop MSI Mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/msi-g-seri.html" title="MSI G-Seri">MSI G-Seri</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/msi-modern.html" title="MSI Modern">MSI Modern</a>
-                                </div>
-                                <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="/msi-bravo.html" title="MSI Bravo">MSI Bravo</a>
-                                </div>
-                              </div>
-                          	</div>
-                            <div class="danhmuc-2">
-                              <a href="/laptop-samsung-moi.html" title="Laptop Samsung mới" class="title-danhmuc-2">Laptop Samsung mới</a>
-                              <div class="danhmuc-3 d-flex flex-wrap">
-                              </div>
-                          	</div>
+                            
                         </div>
                     </div>
                     </div>

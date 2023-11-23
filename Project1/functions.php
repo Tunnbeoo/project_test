@@ -37,3 +37,16 @@ function laysp_chitiet($id = 0 ){
              die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
         }
 }
+function layloaisp(){
+    global $conn;
+    try{
+        $sql="SELECT id_loai, ten_loai, thutu, anhien
+        FROM loai
+        WHERE anhien=1 ORDER BY thutu asc";
+     $loaisp_arr = $conn->query($sql);
+     return $loaisp_arr;
+        }
+        catch(PDOException $e){
+             die('loi thuc thi sql' .$e->getMessage(). "<br>" .$sql);
+        }
+}
