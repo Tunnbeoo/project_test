@@ -68,7 +68,7 @@ else $page = "" ?>
     <?php switch($page){
                 case "sp" : require_once "chitietsp.php"; break;
                 case "sptrongloai" : require_once "sptrongloai.php"; break;
-                case "cart" : require_once "giohang.php"; break;
+                case "cart" : require_once "test_add-card.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
                 case "dangnhap" : require_once "dangnhap.php"; break;
                 case "doipass" : require_once "doipass.php"; break;

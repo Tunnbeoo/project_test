@@ -7,7 +7,6 @@ else $id=0;
 $kq = laysp_chitiet($id);
 $sp = $kq-> fetch();
 ?>
-
 <link rel="stylesheet" href="dell-xps.css">
 <div class="content_mid">
                 <div class="content_text">

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Trang Admin</title>
-    <link rel="stylesheet" href="/Project1/admin.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
 
     <header>
-        <a href=""><img src="/Project1/img/logout.png" alt=""></a>
+        <a href=""><img src="/img/logout.png" alt=""></a>
     </header>
 
     <nav>
