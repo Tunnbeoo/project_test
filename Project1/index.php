@@ -56,13 +56,7 @@ else $page = "" ?>
 </header>
 <div class="content_mid">
  
-  <div class="allquangcao">
-      <div class="quangcao">
-        <img src="img/quangcao4.webp" alt="">
-      </div>
-      <div class="quangcao2">
-        <img src="img/quangcao5.jpg" alt="">
-      </div>
+ 
   
     <div class="slideshow-container">
     <?php switch($page){
@@ -76,7 +70,7 @@ else $page = "" ?>
             } 
             ?>
     </div>
-  </div>
+
   </div>
 </body>
 <footer>

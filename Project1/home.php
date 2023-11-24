@@ -1,4 +1,11 @@
-
+<div class="allquangcao">
+      <div class="quangcao">
+        <img src="img/quangcao4.webp" alt="">
+      </div>
+      <div class="quangcao2">
+        <img src="img/quangcao5.jpg" alt="">
+      </div>
+      
 <div class="mySlides fade">
             <img src="img/quangcao1.png" alt="Quảng cáo 1">
         </div>
@@ -11,7 +18,7 @@
             
             
         </div>
-        
+        </div>
         
 
         <!-- Thêm các div với hình ảnh khác tương tự -->
