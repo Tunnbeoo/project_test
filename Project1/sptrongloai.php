@@ -48,3 +48,16 @@ $tenloai = laytenloai($id);
       localStorage.setItem("cart", JSON.stringify(cart));
    }
 </script>
+<style>
+   #sp_trongloai > #data {width: 200px;}
+#sp_trongloai > #data >.sp {
+ border: 1px solid darkblue; padding: 10px; text-align: center;
+}
+#sp_trongloai > #data >.sp h3 { height: 60px; line-height: 100%; font-size: 20px;}
+#sp_trongloai > #data >.sp h3 a {text-decoration: none; color: black; }
+#sp_trongloai > #data >.sp img {
+ width: 96%; height: 180px; border: 1px solid black;
+}
+#sp_trongloai > #data >.sp > p:nth-child(3) {font-size:20px;margin:15px;color:rgb(125, 125, 125);}
+#sp_trongloai > #data >.sp button { width: 90px; height: 30px; }
+</style>
