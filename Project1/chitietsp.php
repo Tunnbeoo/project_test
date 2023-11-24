@@ -8,19 +8,19 @@ $kq = laysp_chitiet($id);
 $sp = $kq-> fetch();
 ?>
 <link rel="stylesheet" href="dell-xps.css">
-<div class="content_mid">
+              <div class="content_mid">
                 <div class="content_text">
                   <!-- <div>Trang chủ / LAPTOP MỚI / Laptop Dell Mới </div> -->
 
                 </div>
                 <div class="product-item">
-                  <div class="product_text">
+                <div class="product_text">
                     <div><?php echo $sp['ten_sp']  ?></div>
                   </div>
                   <div class="product_new">
-                    <div class="product_detail">
-                      <div class="product_detail_img">
-                      <img src="<?php echo $sp['hinh'] ;?>" alt="">
+                  <div class="product_detail">
+                  <div class="product_detail_img">
+                  <img src="<?php echo $sp['hinh'] ;?>" alt="">
                       </div>
                       <div class="product_small_img">
                         <li><a href=""><img src="/Project1/img/2487_laptopaz_dell_xps_9520_1.jpg" alt=""></a></li>
@@ -30,7 +30,7 @@ $sp = $kq-> fetch();
                         <li><a href=""><img src="/Project1/img/2487_laptopaz_dell_xps_9520_5.jpg" alt=""></a></li>
                         <li><a href=""><img src="/Project1/img/120_2487_laptopaz_dell_xps_9520_6.jpg" alt=""></a></li>
                       </div>
-                    </div>
+                      </div>
                     <div class="product_colum">
                         <div class="product_colum_text">
                           <span><?php echo $sp['gia'] ?>VND</span>
@@ -141,10 +141,7 @@ $sp = $kq-> fetch();
                     </div>
                   </div>
                 </div>
-              </div>
-
-
-              <div class="main-details">
+                <div class="main-details">
                 <div class="container1">
                   <div class="row">
                     <div class="col">
@@ -510,4 +507,5 @@ $sp = $kq-> fetch();
                     </div>
                   </div>
                 </div>
+              </div>
               </div>

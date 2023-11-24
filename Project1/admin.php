@@ -1,3 +1,9 @@
+<?php require_once "../functions.php"; ?>
+<?php if (isset($_GET['page'])==true){
+    $page = $_GET['page'];
+    $page = strip_tags($page);
+}
+else $page = "" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,8 +32,19 @@
 
     <main>
         <section class="dashboard">
-            <h2>Bảng điều khiển</h2>
-            <!-- Nội dung bảng điều khiển -->
+        <?php
+switch ($page){
+    case "dsloai": require_once 'dsloai.php'; break;
+    case "themloai": require_once 'themloai.php'; break;
+    case "sualoai": require_once 'sualoai.php'; break;
+    case "dssanpham": require_once 'danhsachsp.php'; break;
+    case "themsanpham": require_once 'themsp.php'; break;
+    case "suasanpham": require_once 'suasp.php'; break;
+    case "thongbao": require_once 'thongbao.php'; break;
+    case "upfile": require_once 'upfile.php'; break;
+    default: ;
+}
+?>
         </section>
     </main>
 

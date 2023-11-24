@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -346,4 +347,14 @@
       </section>
 
 
+      <script>
+let cart = JSON.parse(localStorage.getItem("cart"));
+function xoa(i)
+{
+    cart = JSON.parse(localStorage.getItem("cart"));
+    cart.splice(i,1)
+    localStorage.setItem("cart" , JSON.stringify(cart));
+    location.reload();
+}
+</script>
   </main>
