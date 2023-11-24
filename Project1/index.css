@@ -3164,3 +3164,11 @@ img {
 .align-items-center{
     padding-left: 1rem;
 }
+.icon-user>p{
+    margin-bottom: 0;
+}
+
+.fa-user{
+    width: 25px;
+    height: 20px;
+}
