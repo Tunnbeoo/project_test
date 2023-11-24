@@ -16,7 +16,7 @@ else $page = "" ?>
     <link rel="stylesheet" href="index.css">
 
 </head>
-<body>
+
 <header>
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
@@ -72,7 +72,7 @@ else $page = "" ?>
     </div>
 
   </div>
-</body>
+
 <footer>
         <div class="footer-container">
             <div class="footer-content">
