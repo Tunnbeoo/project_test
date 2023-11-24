@@ -50,7 +50,7 @@ else $page = "" ?>
 
             <div class="align-items-center cart d-flex flex-column mt25 position-relative">
                 <i class="fa fa-shopping-cart text-24 red" aria-hidden="true"></i>
-                <a href="test_add-card.php" class="text-16"> Giỏ hàng </a>
+                <a href="index.php?page=cart" class="text-16"> Giỏ hàng </a>
                 <span class="cart-quantity-counter" id="count_shopping_cart_store">0</span>
             </div>
         </div>
@@ -61,13 +61,7 @@ else $page = "" ?>
 </header>
 <div class="content_mid">
  
-  <div class="allquangcao">
-      <div class="quangcao">
-        <img src="img/quangcao4.webp" alt="">
-      </div>
-      <div class="quangcao2">
-        <img src="img/quangcao5.jpg" alt="">
-      </div>
+ 
   
     <div class="slideshow-container">
     <?php switch($page){
@@ -81,7 +75,7 @@ else $page = "" ?>
             } 
             ?>
     </div>
-  </div>
+
   </div>
 </body>
 <footer>

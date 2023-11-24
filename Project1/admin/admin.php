@@ -16,17 +16,18 @@ else $page = "" ?>
 <body>
 
     <header>
-        <a href=""><img src="/img/logout.png" alt=""></a>
+        <a href=""><img src="img/logoutkh.png" alt=""></a>
     </header>
 
     <nav>
+    <img src="img/logokh.png" alt="">
         <ul>
-            <img src="/Project1/img/logokh.png" alt="">
-            <li><a href="#">Bảng điều khiển</a></li>
-            <li><a href="#">Quản lý Sản phẩm</a></li>
-            <li><a href="#">Quản lý Người dùng</a></li>
-            <li><a href="#">Thống kê</a></li>
-            <li><a href="#">Cài đặt</a></li>
+            <li><a href="admin.php">TRANG CHỦ</a></li>
+            <li><a href="#">KHÁCH HÀNG</a></li>
+            <li><a href="admin.php?page=dsloai">DANH SÁCH LOẠI</a></li>
+            <li><a href="admin.php?page=dssanpham">SANH SÁCH SẢN PHẨM</a></li>
+            <li><a href="#">DANH SÁCH TIN TỨC</a></li>
+            <li><a href="#">DOANH THU</a></li>
         </ul>
     </nav>
 
@@ -35,7 +36,7 @@ else $page = "" ?>
         <?php
 switch ($page){
     case "dsloai": require_once 'dsloai.php'; break;
-    case "themloai": require_once 'themloai.php'; break;
+    case "themloai": require_once 'themloai_.php'; break;
     case "sualoai": require_once 'sualoai.php'; break;
     case "dssanpham": require_once 'danhsachsp.php'; break;
     case "themsanpham": require_once 'themsp.php'; break;
