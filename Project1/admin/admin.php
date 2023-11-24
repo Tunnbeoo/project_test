@@ -36,7 +36,7 @@ else $page = "" ?>
         <?php
 switch ($page){
     case "dsloai": require_once 'dsloai.php'; break;
-    case "themloai": require_once 'themloai.php'; break;
+    case "themloai": require_once 'themloai_.php'; break;
     case "sualoai": require_once 'sualoai.php'; break;
     case "dssanpham": require_once 'danhsachsp.php'; break;
     case "themsanpham": require_once 'themsp.php'; break;
