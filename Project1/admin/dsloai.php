@@ -1,4 +1,5 @@
 <?php  $list = listloaisp(); ?>
+
 <div id="danhsach">
     <h1>Danh sách loại</h1>
     <div class="dshead">
@@ -16,8 +17,9 @@
        </a></div>
     </div><?php } ?>
 </div>
+
 <style>
-    #danhsach { width: 1000px; margin: auto;;}
+    #danhsach { width: 1000px; margin: auto;}
 #danhsach > h1 {background: black; padding: 10px; color:white;font-size: 24px;}
 #danhsach > div {display: grid; grid-template-columns: 90px auto 100px 150px 150px;}
 #danhsach .dshead { font-weight: bold; font-size: 20px;}

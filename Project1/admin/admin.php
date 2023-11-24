@@ -1,4 +1,4 @@
-<?php require_once "/xampp/htdocs/git_project_1/git_project_1/git_project_1/Project1/functions.php"; ?>
+<?php require_once "../functions.php"; ?>
 <?php if (isset($_GET['page'])==true){
     $page = $_GET['page'];
     $page = strip_tags($page);
@@ -16,16 +16,16 @@ else $page = "" ?>
 <body>
 
     <header>
-        <a href=""><img src="/img/logout.png" alt=""></a>
+        <a href=""><img src="img/logoutkh.png" alt=""></a>
     </header>
 
     <nav>
+    <img src="img/logokh.png" alt="">
         <ul>
-            <img src="/Project1/img/logokh.png" alt="">
-            <li><a href="#">TRANG CHỦ</a></li>
+            <li><a href="admin.php">TRANG CHỦ</a></li>
             <li><a href="#">KHÁCH HÀNG</a></li>
-            <li><a href="index.php?page=dsloai">DANH SÁCH LOẠI</a></li>
-            <li><a href="#">SANH SÁCH SẢN PHẨM</a></li>
+            <li><a href="admin.php?page=dsloai">DANH SÁCH LOẠI</a></li>
+            <li><a href="admin.php?page=dssanpham">SANH SÁCH SẢN PHẨM</a></li>
             <li><a href="#">DANH SÁCH TIN TỨC</a></li>
             <li><a href="#">DOANH THU</a></li>
         </ul>
