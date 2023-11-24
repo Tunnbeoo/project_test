@@ -21,7 +21,7 @@ $loaisp_arr = layloaisp();
                       <div class="sub_filter">
                         <div class="list-unstyled sub_list-attr list_2col m-0 p-0 d-flex flex-wrap"> 
                             <div class="danhmuc-2">
-                              <a href="/laptop-dell-moi.html" title="Laptop Dell Mới" class="title-danhmuc-2">Laptop Dell Mới</a>
+                              <a href="index.php?page=sploai" title="Laptop Dell Mới" class="title-danhmuc-2">Laptop Dell Mới</a>
                               <div class="danhmuc-3 d-flex flex-wrap">
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
                                   <a href="/dell-alienware.html" title="Dell Alienware">Dell Alienware</a>
