@@ -16,7 +16,7 @@ else $page = "" ?>
 <body>
 
     <header>
-        <a href=""><img src="img/logoutkh.png" alt=""></a>
+        <a href=""><img src="/Project1/img/logout.png" alt=""></a>
     </header>
 
     <nav>
