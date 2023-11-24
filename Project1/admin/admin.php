@@ -16,12 +16,13 @@ else $page = "" ?>
 <body>
 
     <header>
-        <a href=""><img src="img/logoutkh.png" alt=""></a>
+        <a href=""><img src="/Project1/img/logout.png" alt=""></a>
     </header>
 
     <nav>
-    <img src="img/logokh.png" alt="">
+    
         <ul>
+        <img src="/Project1/img/logokh.png" alt="">
             <li><a href="admin.php">TRANG CHỦ</a></li>
             <li><a href="#">KHÁCH HÀNG</a></li>
             <li><a href="admin.php?page=dsloai">DANH SÁCH LOẠI</a></li>
