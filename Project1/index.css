@@ -297,12 +297,15 @@ header .cart .cart-quantity-counter {
 
 .danhmuc-2 .title-danhmuc-2 {
     font-size: 20px;
-    text-align:;
+    justify-content: left;
     color: #fff;
     padding: 8px 35px 10px 10px;
     background: #2b80dd;
     font-weight: 700;
     border-radius: 0 0 10px 0;
+    position: relative;
+    display: grid;
+    max-width: fit-content;
 }
 
 .menu .icon_root img {
