@@ -43,9 +43,19 @@ else $page = "" ?>
                 <p class="font-weight-bold hotline text-20 text-bold m-0"> 0825 233 233 </p>
             </div>
 
-            <div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user " style="margin-top: 1rem;">
+            
+            <div id="chao">
+                <?php
+                if(isset($_SESSION['ho'])){
+                    echo"xin chao " . $_SESSION['ho']."".$_SESSION['ten']. "<br>";
+                    echo" <a href='thoat.php'>thoat</a>";
+                }
+                else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user " style="margin-top: 1rem;">
                     <i class="fa-solid fa-user fa-2xl"></i>
-                    <a href="sign-in.html" class="text-16"> Đăng nhập / Đăng ký </a>                
+                    <a href="dndk.php" class="text-16"> Đăng nhập / Đăng ký </a>                
+            </div><?php }
+                     
+                ?>
             </div>
 
             <div class="align-items-center cart d-flex flex-column mt25 position-relative">
@@ -69,8 +79,7 @@ else $page = "" ?>
                 case "loai" : require_once "sptrongloai.php"; break;
                 case "cart" : require_once "test_add-card.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
-                case "dangnhap" : require_once "dangnhap.php"; break;
-                case "doipass" : require_once "doipass.php"; break;
+                case "dangnhap" : require_once "dndk.php"; break;
                 default : require_once "home.php";
             } 
             ?>
@@ -119,3 +128,8 @@ else $page = "" ?>
     </footer>
   
 </html>
+<style>
+    #chao { border-bottom: 1px lightgoldenrodyellow solid; padding:20px; 
+    font-size: 20px;  text-align: center; color: #2b80dd;
+}
+</style>

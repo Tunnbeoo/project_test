@@ -275,7 +275,7 @@ $sp = $kq->fetch();
 
               <p style="text-align: center;">
                 <span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">
-                  <strong>Địa chỉ mua bán Laptop uy tín tại Hà Nội và trên toàn quốc - LaptopAZ.vn
+                  <strong>Địa chỉ mua bán Laptop uy tín tại Hà Nội và trên toàn quốc - Xcomputer
                     <br>
                     Cơ sở 1: Số 18 Ngõ 121 - Thái Hà - Đống Đa - Hà Nội
                   </strong>
