@@ -25,8 +25,20 @@ else $page = "" ?>
         <img src="/Project1/img/logokh.png" alt="">
             <li><a href="admin.php">TRANG CHỦ</a></li>
             <li><a href="#">KHÁCH HÀNG</a></li>
-            <li><a href="admin.php?page=dsloai">DANH SÁCH LOẠI</a></li>
-            <li><a href="admin.php?page=dssanpham">SANH SÁCH SẢN PHẨM</a></li>
+            <li> <a href="#">Quản lý loại </a>
+            <ul>
+            <li><a href="admin.php?page=dsloai">Danh sách loại</a></li>
+            <li><a href="admin.php?page=themloai">Thêm loại</a></li>
+            <li><a href="#">upfile</a></li>
+            </ul>
+    </li>
+    <li> <a href="#">Quản lý sản phẩm </a>
+        <ul>
+            <li><a href="admin.php?page=dssanpham">Danh sách sản phẩm</a></li>
+            <li><a href="admin.php?page=themsanpham">Thêm sản phẩm</a></li>
+            <li><a href="admin.php?page=suasanpham">Sửa sản phẩm</a></li>
+            </ul>
+    </li>
             <li><a href="#">DANH SÁCH TIN TỨC</a></li>
             <li><a href="#">DOANH THU</a></li>
         </ul>
@@ -46,6 +58,7 @@ switch ($page){
     case "upfile": require_once 'upfile.php'; break;
     default: ;
 }
+
 ?>
         </section>
     </main>
@@ -53,3 +66,11 @@ switch ($page){
 
 </body>
 </html>
+<style>nav > ul > li:hover > ul > li{padding:8px; border-bottom:solid 1px wheat}
+nav > ul > li:hover > ul a {text-decoration: none; color: black}
+nav > ul > li:hover > ul a:hover{text-decoration: underline;font-weight:900}
+ nav > ul > li >ul  { display: none;position: absolute; top: 50px; left: 200px;}
+ nav > ul > li:hover > ul { 
+    display: block; position: absolute;  background: #ddd;
+    width: 200px; text-align:left; border-radius: 20px 0px 20px 0px;
+}</style>

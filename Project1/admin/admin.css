@@ -77,4 +77,7 @@ main {
     left: 400px;
     top: 160px;
 }
+nav > ul > li:hover > ul > li{padding:8px; border-bottom:solid 1px wheat}
+
+
 
