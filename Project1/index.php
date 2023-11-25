@@ -79,7 +79,7 @@ else $page = "" ?>
                 case "loai" : require_once "sptrongloai.php"; break;
                 case "cart" : require_once "test_add-card.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
-                case "dangnhap" : require_once "dndk.php"; break;
+                case "dndk" : require_once "dndk.php"; break;
                 default : require_once "home.php";
             } 
             ?>

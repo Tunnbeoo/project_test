@@ -8,7 +8,7 @@ $sp = $kq->fetch();
 ?>
 <link rel="stylesheet" href="dell-xps.css">
 <div class="content_mid">
-  
+
   <div class="product-item">
     <div class="product_text">
       <div><?php echo $sp['ten_sp']  ?></div>
@@ -114,7 +114,11 @@ $sp = $kq->fetch();
             </p>
           </ul>
         </div>
-        <a href="" class="buy-now add-product">
+        <a href="<?php if (isset($_SESSION['ho'])) { ?>index.php?page=cart
+                  <?php }
+                  else {
+                  ?>dndk.php<?php
+                          } ?>" class="buy-now add-product">
           Mua ngay
           <span class="d-block text-13">
             Giao hàng tận nơi hoặc nhận ở cửa hàng
