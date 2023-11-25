@@ -8,10 +8,7 @@ $sp = $kq->fetch();
 ?>
 <link rel="stylesheet" href="dell-xps.css">
 <div class="content_mid">
-  <div class="content_text">
-    <!-- <div>Trang chủ / LAPTOP MỚI / Laptop Dell Mới </div> -->
-
-  </div>
+  
   <div class="product-item">
     <div class="product_text">
       <div><?php echo $sp['ten_sp']  ?></div>

@@ -305,7 +305,7 @@ header .cart .cart-quantity-counter {
     border-radius: 0 0 10px 0;
     position: relative;
     display: grid;
-    max-width: fit-content;
+    max-width:fit-content;
 }
 
 .menu .icon_root img {
@@ -2999,23 +2999,24 @@ footer {
     font-size: xx-large;
 }
 .slideshow-container {
-    max-width:  700px;
+    /* max-width:  700px;
     width: 900px;
     height: auto;
     position: relative;
     margin: auto;
-    margin-left: 0%;
+    margin-left: 0%; */
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
-.mySlides {
-    display: none;
-}
+
 
 img {
     width: 100%;
 }
 
-.prev,
+/* .prev,
 .next {
     position: absolute;
     top: 50%;
@@ -3032,7 +3033,7 @@ img {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
+} */
 
 .prev:hover,
 .next:hover {
@@ -3060,6 +3061,7 @@ img {
 }
 .allquangcao{
     position: relative;
+    width: 1200px;
 }
 .quangcao2{
     position: absolute;
@@ -3174,4 +3176,14 @@ img {
 .fa-user{
     width: 25px;
     height: 20px;
+}
+.noname{
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    justify-content:space-around;
+
+}
+.mySlides{
+
 }

@@ -63,7 +63,7 @@ else $page = "" ?>
  
  
   
-    <div class="slideshow-container">
+    <div class="noname">
     <?php switch($page){
                 case "sp" : require_once "chitietsp.php"; break;
                 case "loai" : require_once "sptrongloai.php"; break;

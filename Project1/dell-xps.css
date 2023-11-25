@@ -12,7 +12,10 @@
 .product-item{
     width: 100%;
     height: auto;
+    justify-content:left;
     background-color: #fff;
+    display:grid;
+    position: relative;
 }
 .product_text{
 width: auto;

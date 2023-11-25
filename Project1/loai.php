@@ -416,7 +416,7 @@ $loaisp_arr = layloaisp();
                 </div>
               	<div class="item js-hover-menu">
                     <span class="icon_root transition"><img src="https://laptopaz.vn/media/lib/hot-sale.png" alt=""></span>
-                    <a href="/tin-khuyen-mai.html" class="root">KHUYẾN MÃI</a>
+                    <a href="tin-khuyen-mai.html" class="root">KHUYẾN MÃI</a>
                </div>
               <div class="item js-hover-menu">
                     <span class="icon_root transition"><img src="https://laptopaz.vn/media/lib/tr-gp.png" alt=""></span>
