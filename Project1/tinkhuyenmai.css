@@ -1,0 +1,26 @@
+.tintuc-right{
+max-width: 300px;
+background-color: white;
+padding: 15px;
+left: 15px;
+position: relative;
+}
+.tintuc-right h3{
+color: #2b80dd;
+font-family: Montserrat;
+font-weight: bold;
+}
+.tintuc-right p{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.tintuc-right h5{
+    text-align: center;
+}
+.alltinsanpham .tinsanpham{
+    width: auto;
+}
+.alltinsanpham{
+    display:block;
+    width:auto;
+}
