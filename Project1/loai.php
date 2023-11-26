@@ -420,7 +420,7 @@ $loaisp_arr = layloaisp();
                </div>
               <div class="item js-hover-menu">
                     <span class="icon_root transition"><img src="https://laptopaz.vn/media/lib/tr-gp.png" alt=""></span>
-                    <a href="/huong-dan-tra-gop.html" class="root">TRẢ GÓP</a>
+                    <a href="index.php?page=tragop" class="root">TRẢ GÓP</a>
                </div>
             </div>
         </div>
