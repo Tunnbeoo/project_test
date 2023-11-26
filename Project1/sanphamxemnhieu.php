@@ -14,7 +14,7 @@ try {
   <div class="pro-head d-flex">
     <div class="title">
       <h5>
-        <a href="/laptop-van-phong.html">Sản Phẩm Nổi Bật</a>
+        <a href="/laptop-van-phong.html">Sản Phẩm Xem Nhiều</a>
       </h5>
     </div>
     <div class="filter-price d-flex align-items-center">
