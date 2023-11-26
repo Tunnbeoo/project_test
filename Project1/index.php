@@ -80,6 +80,7 @@ else $page = "" ?>
                 case "cart" : require_once "test_add-card.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
                 case "dndk" : require_once "dndk.php"; break;
+                case "khuyenmai" : require_once "tin-khuyen-mai.php"; break;
                 default : require_once "home.php";
             } 
             ?>

@@ -20,7 +20,7 @@ $tenloai = laytenloai($id);
   <div class="pro-head d-flex">
     <div class="title">
       <h5>
-        <a href="#"><?php echo $tenloai ?></a>
+        <a href="#">Laptop: <?php echo $tenloai ?></a>
       </h5>
     </div>
   </div>
