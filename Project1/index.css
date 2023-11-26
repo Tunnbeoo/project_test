@@ -3054,22 +3054,23 @@ img {
 }
 .quangcao{
     position: absolute;
-    width: 350px;
-    left: 720px;
-    height: 200px;
+    width: 400px;
+    left: 800px;
+    height: 250px;
     
 }
 .allquangcao{
     position: relative;
     width: 1200px;
-    z-index: 1;
+    justify-content:start;
+    display: flex;
 }
 .quangcao2{
     position: absolute;
-    width: 350px;
-    left: 720px;
-    top: 197px;
-    height: 200px;
+    width: 400px;
+    left: 800px;
+    top: 215px;
+    height: 250px;
    
 }
 .product-container {
@@ -3185,7 +3186,10 @@ img {
     justify-content:space-around;
 
 }
-.mySlides{
-width: 59%;
-height: 59%;
+.mySlides {
+width: 65%;
+height: 65%;
+/* left: 100px; */
+display: flex;
+position:relative;
 }
