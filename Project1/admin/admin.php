@@ -49,13 +49,14 @@ else $page = "" ?>
         <?php
 switch ($page){
     case "dsloai": require_once 'dsloai.php'; break;
-    case "themloai": require_once 'themloai_.php'; break;
+    case "themloai": require_once 'themloai.php'; break;
     case "sualoai": require_once 'sualoai.php'; break;
     case "dssanpham": require_once 'danhsachsp.php'; break;
     case "themsanpham": require_once 'themsp.php'; break;
     case "suasanpham": require_once 'suasp.php'; break;
     case "thongbao": require_once 'thongbao.php'; break;
     case "upfile": require_once 'upfile.php'; break;
+    case "thongvao": require_once 'thongbao.php'; break;
     default: ;
 }
 

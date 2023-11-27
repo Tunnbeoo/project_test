@@ -178,3 +178,14 @@ function listsp()
         die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
     }
 }
+function chensp($ten_sp, $id_sp, $anhien)
+{
+    global $conn;
+    try {
+        $sql = "INSERT INTO sanpham SET ten_sp = '$ten_sp' , id_sp = '$id_sp' , anhien=$anhien ";
+        $conn->exec($sql);
+        return true;
+    } catch (PDOException $e) {
+        die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
+    }
+}

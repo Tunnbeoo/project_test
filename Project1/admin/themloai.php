@@ -1,10 +1,10 @@
-<form action="themsp_.php" method="post" id="frm1">
-<h2>THÊM SẢN PHẨM</h2>
+<form action="themloai_.php" method="post" id="frm1">
+<h2>THÊM LOẠI SẢN PHẨM</h2>
 <div> 
-    <label>Tên sản phẩm </label> <input type="text" class="txt" value="" name="ten_sp">
+    <label>Tên loại </label> <input type="text" class="txt" value="" name="ten_loai">
 </div>
 <div> 
-    <label>id_sp </label> <input type="number" class="txt" min="1" name="id_sp">
+    <label>Thứ tự </label> <input type="number" class="txt" min="1" name="thutu">
 </div>
 <div> 
     <label>Ẩn hiện </label>

@@ -82,6 +82,7 @@ else $page = "" ?>
                 case "dndk" : require_once "dndk.php"; break;
                 case "khuyenmai" : require_once "tin-khuyen-mai.php"; break;
                 case "tragop" : require_once "tragop.php"; break;
+                case "search" : require_once "search.php"; break;
                 default : require_once "home.php";
             } 
             ?>

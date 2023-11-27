@@ -9,10 +9,10 @@
 <body>
     <div>
         <div>
-        <img src="/Project1/img/quangcao2.png" alt="">
+        <img src="img/quangcao2.png" alt="">
         </div>
         <div class="tintucchitiet">
-            <img src="/Project1/img/tintuc1.png" alt="">
+            <img src="img/tintuc1.png" alt="">
            <div class="texttintuc"><h6>TOP 4 Laptop Gaming Dell Đáng Mua Nhất Tầm Giá 23 - 29 Triệu Thời Điểm Hiện Tại!!!</h6>
             <p>Ngoài việc hỗ trợ cho việc học tập và làm việc, 
             Laptop cũng là một công cụ hữu ích giúp bạn thư giãn bằng cách chơi Game. 
@@ -21,7 +21,7 @@
             </div> 
         </div>
         <div class="tintucchitiet">
-            <img src="/Project1/img/tintuc2.jpg" alt="">
+            <img src="img/tintuc2.jpg" alt="">
             <div class="texttintuc"><h6>TOP 4 Ultrabook 2-in-1 HOT Nhất Mùa Tựu Trường 2023</h6>
             <p>Mùa tựu trường 2023 - 2024 đã đến. Chắc hẳn có rất nhiều bạn học sinh, 
                 sinh viên đang quan tâm đến những chiếc Laptop có thể hỗ trợ tốt nhất cho việc học tập, giải trí của mình. 
@@ -30,7 +30,7 @@
             </div> 
         </div>
         <div class="tintucchitiet">
-            <img src="/Project1/img/tintuc3.jpg" alt="">
+            <img src="img/tintuc3.jpg" alt="">
             <div class="texttintuc"><h6>TOP 4 Laptop Gaming Sở Hữu Card Đồ Họa RTX 4060 Không Thể Bỏ Lỡ</h6>
             <p>Laptop gaming là dòng laptop được sản xuất để phục vụ người chơi game, 
                 vì vậy nó đòi hỏi cấu hình cao cũng như đáp ứng được chất lượng đồ họa để đảm bảo quá trình chơi được liền mạch, 
@@ -39,7 +39,7 @@
             </div> 
         </div>
         <div class="tintucchitiet">
-            <img src="/Project1/img/tintuc4.png" alt="">
+            <img src="img/tintuc4.png" alt="">
             <div class="texttintuc"><h6>TOP 3 Ultrabook Cảm Ứng HOT Nhất Mùa Tựu Trường 2023</h6>
             <p>Vậy là mùa tựu trường 2023 - 2024 lại đang tới. 
                 Các bạn học sinh, sinh viên đã bắt đầu chuẩn bị cho mình hành trang để hỗ trợ việc học tập, giải trí. 
@@ -57,23 +57,23 @@
         <p> Acer Predator Helios Neo 2023 - chiến thần hiệu năng, bá thủ tản nhiệt!</p>
         
         <h3>TIN KHUYẾN MÃI</h3>
-        <img src="/Project1/img/quangcao2.png" alt="">
+        <img src="img/quangcao2.png" alt="">
         <h5>MỪNG TỰU TRƯỜNG - GIÁ YÊU THƯƠNG, GIẢM TỚI 5 TRIỆU ĐỒNG</h5>
         <div class="alltinsanpham">
         <div class="tinsanpham">
-            <img src="/Project1/img/quangcao1.png" alt="">
+            <img src="img/quangcao1.png" alt="">
             <p>TOP 4 Laptop Gaming Dell Đáng Mua Nhất Tầm Giá 23 - 29 Triệu Thời Điểm Hiện Tại!!!</p>
         </div>
         <div class="tinsanpham">
-            <img src="/Project1/img/quangcao3.png" alt="">
+            <img src="img/quangcao3.png" alt="">
             <p>TOP 4 Laptop Gaming Sở Hữu Card Đồ Họa RTX 4060 Không Thể Bỏ Lỡ</p>
         </div>
         <div class="tinsanpham">
-            <img src="/Project1/img/quangcao4.webp" alt="">
+            <img src="img/quangcao4.webp" alt="">
             <p>TOP 4 Ultrabook 2-in-1 HOT Nhất Mùa Tựu Trường 2023</p>
         </div>
         <div class="tinsanpham">
-            <img src="/Project1/img/quangcao5.jpg" alt="">
+            <img src="img/quangcao5.jpg" alt="">
             <p>TOP 5 Laptop Gaming 20-25 Triệu Bán Chạy Nhất 2023</p>
         </div>
         </div>
