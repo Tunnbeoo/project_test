@@ -16,7 +16,7 @@
             <div class="sign-out-sign-up">
                 <a href="index.php"><i class="fa-solid fa-right-from-bracket" style="position: absolute; top: 20px; right: 15px; font-size: 30px;"></i></a>
             </div>
-            <form>
+            <form action="" method="post">
                 <h1>Create Account</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -25,10 +25,11 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
+                <input type="text" placeholder="ho" name="ho"required>
+                <input type="text" placeholder="ten" name="ten" required>
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="matkhau" name="matkhau">
+                <button name="btn" type="submit">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">
