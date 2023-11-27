@@ -26,7 +26,7 @@ font-weight: bold;
     display:flex;
     justify-content: left;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
 }
 .tintucchitiet{
     height: 200px;
@@ -34,6 +34,7 @@ font-weight: bold;
     flex-wrap: wrap;
     justify-content: left;
     border:1px groove;
+    padding: 5px;
 }
 .tintucchitiet img{
     width: 200px;
