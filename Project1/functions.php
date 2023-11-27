@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$db_name = "laptop";
+$db_name = "laptop1";
 $db_un = "root";
 $db_pw = "";
 $conn = null;
