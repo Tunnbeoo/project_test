@@ -115,8 +115,7 @@ $sp = $kq->fetch();
           </ul>
         </div>
         <a href="<?php if (isset($_SESSION['ho'])) { ?>index.php?page=cart
-                  <?php }
-                  else {
+                  <?php } else {
                   ?>dndk.php<?php
                           } ?>" class="buy-now add-product">
           Mua ngay

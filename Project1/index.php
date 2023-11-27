@@ -50,8 +50,8 @@ else $page = "" ?>
                     echo"xin chao " . $_SESSION['ho']."".$_SESSION['ten']. "<br>";
                     echo" <a href='thoat.php'>thoat</a>";
                 }
-                else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user " style="margin-top: 1rem;">
-                    <i class="fa-solid fa-user fa-2xl"></i>
+                else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user " style="margin-top: 25px;">
+                    <i class="fa-solid fa-user fa-xl"></i>
                     <a href="dndk.php" class="text-16"> Đăng nhập / Đăng ký </a>                
             </div><?php }
                      
