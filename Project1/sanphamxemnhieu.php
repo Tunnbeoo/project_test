@@ -59,12 +59,12 @@ try {
 <?php } ?>
 </section>
 <script>
-   function chonsp(id,ten,hinh,gia){
+   function chonsp(id,ten,hinh,gia_km){
       let cart = JSON.parse(localStorage.getItem('cart'));
       if(cart==null) cart = [];
       index = cart.findIndex(sp=>sp[0]==id);
       if ( index ==-1){
-         cart.push([id,ten,hinh,gia,soluong=1]);
+         cart.push([id,ten,hinh,giaB_km,soluong=1]);
       }else{
          cart[index][4]++;
       }
