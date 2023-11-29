@@ -1,6 +1,21 @@
-<h1>Bạn đã đặt hàng thành công!</h1>
-    <p>Cảm ơn bạn đã mua hàng. Chúng tôi sẽ xử lý đơn hàng của bạn trong thời gian sớm nhất.</p>
-    <a href="index.php">Quay về trang chủ</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sendcart.css">
+    <title>Đặt Hàng Thành Công</title>
+</head>
+<body>
+    <div class="container">
+        <div class="success-message">
+            <h1>Đặt Hàng Thành Công!</h1>
+            <p>Cảm ơn bạn đã đặt hàng. Chúng tôi sẽ xử lý đơn hàng của bạn ngay lập tức.</p>
+            <a href="index.php">Quay lại Trang Chủ</a>
+        </div>
+    </div>
+</body>
+</html>
 
 
 <?php
