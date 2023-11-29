@@ -57,10 +57,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
 
             <div class="search-form">
                 <!-- form search -->
-                <form id="frm-search" name="search" action="/tim">
+                <form id="frm-search" name="search" action="search.php" method="get">
                     <button type="submit" id="sbutton"><i class="fa fa-search" aria-hidden="true"></i>
                     </button>
-                    <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?" value="" name="q" id="stext" autocomplete="off">
+                    <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?" value="" name="keyword" id="stext" autocomplete="off">
                 </form>
                 <div class="autocomplete-suggestions">
                     <div class="suggest-container"></div>
