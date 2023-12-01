@@ -3102,6 +3102,7 @@ img {
 .product img {
     width: 235px;
     height: 235px;
+    background-color: #f5f5f5;
 }
 
 .product h2 {
