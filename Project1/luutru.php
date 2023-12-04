@@ -4,7 +4,7 @@
                 <div class="item js-hover-menu" data-id="42">                   
                     <span class="icon_root transition">
                         <img src="/media/category/cb_e90d157ceaa8bd152905d6b420c3bd29.png" alt=""></span>                   
-                    <a href="/laptop-moi.html" class="root">LAPTOP MỚI</a>
+                    <a href="index.php?page=laptop-moi.php" class="root">LAPTOP MỚI</a>
                     <div class="sub_nav">
                       <div class="sub_filter">
                         <div class="list-unstyled sub_list-attr list_2col m-0 p-0 d-flex flex-wrap"> 
@@ -29,7 +29,7 @@
                 <div class="item js-hover-menu" data-id="42">                   
                     <span class="icon_root transition">
                         <img src="/media/category/cb_e90d157ceaa8bd152905d6b420c3bd29.png" alt=""></span>                   
-                    <a href="/laptop-moi.html" class="root">LAPTOP LIKE NEW</a>
+                    <a href="index.php?page=laptop-moi.php" class="root">LAPTOP LIKE NEW</a>
                     <div class="sub_nav">
                       <div class="sub_filter">
                         <div class="list-unstyled sub_list-attr list_2col m-0 p-0 d-flex flex-wrap"> 

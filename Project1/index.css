@@ -2934,7 +2934,7 @@ button.slick-arrow {
 }
 
 footer{
-    width: 1470px;
+    width: 1695px;
     height: 300px;
     position: absolute;
 left: 0px;
@@ -2962,9 +2962,9 @@ footer {
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: left;
-    padding-left: 20px;
+    justify-content:space-between;
+    text-align: center;
+    padding-left: 55px;
 }
 
 .footer-section {

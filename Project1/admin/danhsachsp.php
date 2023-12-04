@@ -16,8 +16,8 @@
     </div><?php } ?>
 </div>
 <style>
-    #danhsach { width: 1000px; margin: auto;;}
-#danhsach > h1 {background: black; padding: 10px; color:white;font-size: 24px;}
+    #danhsach { width: auto; margin: auto;;}
+#danhsach > h1 {background: dimgrey; padding: 10px; color:white;font-size: 24px;}
 #danhsach > div {display: grid; grid-template-columns: 90px auto 100px 150px 150px;}
 #danhsach .dshead { font-weight: bold; font-size: 20px;}
 #danhsach > div > div {border: 1px solid darkblue; padding: 10px; text-align: center;}

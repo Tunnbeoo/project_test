@@ -16,6 +16,7 @@ else $page = "" ?>
 <body>
 
     <header>
+       <a href="/Project1/index.php"> <img id="logo" src="/Project1/img/COMPUTER.png" alt=""></a>
         <a href=""><img src="/Project1/img/logout.png" alt=""></a>
     </header>
 
