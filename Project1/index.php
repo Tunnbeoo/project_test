@@ -43,9 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -54,8 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
     <div class="container">
         <div class="align-items-center justify-content-between d-flex">
             <a class="logo" href="index.php">
-                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc"
-                    src="img/COMPUTER.png" class="img-fluid">
+                <img alt="laptopaz.com chuyên laptop cũ, bán laptop cũ uy tín Hà Nội và toàn quốc" src="img/COMPUTER.png" class="img-fluid">
             </a>
 
             <div class="search-form">
@@ -63,8 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                 <form id="frm-search" name="search" action="search.php" method="get">
                     <button type="submit" id="sbutton"><i class="fa fa-search" aria-hidden="true"></i>
                     </button>
-                    <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?" value="" name="keyword" id="stext"
-                        autocomplete="off">
+                    <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?" value="" name="keyword" id="stext" autocomplete="off">
                 </form>
                 <div class="autocomplete-suggestions">
                     <div class="suggest-container"></div>
@@ -72,25 +68,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                 <!-- end form search -->
             </div>
 
-            <div class="box-hotline d-flex align-items-center flex-column"
-                style="margin-top: 12px;line-height: 25px;font-weight: bold;">
+            <div class="box-hotline d-flex align-items-center flex-column" style="margin-top: 12px;line-height: 25px;font-weight: bold;">
                 <p class="m-0 red text-18 text-uppercase">
                     <i class="fa fa-phone mr-2 text-20" aria-hidden="true"></i>Hotline
                 </p>
                 <p class="font-weight-bold hotline text-20 text-bold m-0"> 0825 233 233 </p>
             </div>
-            c
+
 
             <div id="chao">
                 <?php
                 if (isset($_SESSION['ho'])) {
                     echo "xin chao " . $_SESSION['ho'] . "" . $_SESSION['ten'] . "<br>";
                     echo " <a href='thoat.php'>thoat</a>";
-                } else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user "
-                    style="margin-top: 25px;">
-                    <i class="fa-solid fa-user fa-xl"></i>
-                    <a href="dndk.php" class="text-16"> Đăng nhập / Đăng ký </a>
-                </div><?php }
+                } else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user " style="margin-top: 25px;">
+                        <i class="fa-solid fa-user fa-xl"></i>
+                        <a href="dndk.php" class="text-16"> Đăng nhập / Đăng ký </a>
+                    </div><?php }
 
                             ?>
             </div>
@@ -195,11 +189,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
 
 </html>
 <style>
-#chao {
-    border-bottom: 1px lightgoldenrodyellow solid;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-    color: #2b80dd;
-}
+    #chao {
+        border-bottom: 1px lightgoldenrodyellow solid;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: #2b80dd;
+    }
 </style>
