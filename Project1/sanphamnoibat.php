@@ -49,7 +49,7 @@ try {
           <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"> <img src="<?php echo $sp[3] ?>"> </a>
           <h2><a href="index.php?page=sp&id=<?php echo $sp[0] ?>"><?php echo $sp[1] ?></a></h2>
           <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
-          <p class="price"><?php echo $sp[2] ?>VND</p>
+          <p class="price"><?php echo number_format($sp[2]) ?>VND</p>
           
 
 

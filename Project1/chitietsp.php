@@ -26,7 +26,7 @@ $sp = $kq->fetch();
       <div class="product_colum">
         <div class="product_colum_text">
           <span>
-            <?php echo $sp['gia_km'] ?>VND
+            <?php echo number_format($sp['gia_km'])  ?>VND
           </span>
           <p style="margin-bottom: 0.5rem;"><strong>Bảo hành:</strong> 12 tháng Xcomputer</p>
           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>

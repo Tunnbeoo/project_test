@@ -16,7 +16,7 @@ if (isset($_GET['keyword'])) {
         echo "<h2>Kết Quả Tìm Kiếm:</h2>";
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) 
         {
-            echo "<p>{$row['ten_sp']}</p>";
+            
         }
     } else 
     {
