@@ -146,6 +146,7 @@ else $page = "" ?>
                 case "dangky" : require_once "dangky.php"; break;
                 case "dangnhap" : require_once "dangnhap.php"; break;
                 case "doipass" : require_once "doipass.php"; break;
+                case "send-cart": require_once "send-cart.php";break;
                 default : require_once "home.php";
             } 
             ?>

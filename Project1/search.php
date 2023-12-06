@@ -1,6 +1,6 @@
 <?php
 include('functions.php'); // Kết nối đến cơ sở dữ liệu
-
+include('')
 if (isset($_GET['keyword'])) {
     $keyword = $_GET['keyword'];
 
