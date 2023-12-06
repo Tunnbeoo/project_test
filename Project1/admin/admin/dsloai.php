@@ -11,7 +11,7 @@
        <div><?php echo $row['thutu'];?></div>
        <div><?php echo $row['anhien'];?></div>
        <div><a href="xoaloai.php?id=<?=$row[0]?>">xoa</a>
-       <a href="index.php?page=sualoai&id=<?=$row[0]?>">sua
+       <a href="admin.php?page=sualoai&id=<?=$row[0]?>">sua
 
        </a></div>
     </div><?php } ?>

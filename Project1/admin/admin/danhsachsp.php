@@ -2,7 +2,7 @@
 <div id="danhsach">
     <h1>Danh sách sản phẩm</h1>
     <div class="dshead">
-       <div>Id sản phẩm</div><div>Tên sản phẩm</div><div>Thứ tự</div><div>Ẩn hiện</div><div></div>
+       <div>Id sản phẩm</div><div>Tên sản phẩm</div><div>Ngày SX</div><div>Ẩn hiện</div><div></div>
     </div>
     <?php foreach($list as $row){?>
     <div class="dsdata">
@@ -10,9 +10,8 @@
        <div><?php echo $row['ten_sp'];?></div>
        <div><?php echo $row['ngay'];?></div>
        <div><?php echo $row['anhien'];?></div>
-       <div><a href="xoaloai.php?id=<?=$row[0]?>">xoa</a>
-       <a href="index.php?page=sualoai&id=<?=$row[0]?>">sua
-
+       <div><a href="xoasp.php?id=<?=$row[0]?>">xoa</a>
+       <a href="admin.php?page=suasanpham&id=<?=$row[0]?>">sua 
        </a></div>
     </div><?php } ?>
 </div>
