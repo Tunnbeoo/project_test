@@ -40,7 +40,7 @@ else $page = "" ?>
             </ul>
     </li>
             <li><a href="#">DANH SÁCH TIN TỨC</a></li>
-            <li><a href="#">DOANH THU</a></li>
+            <li><a href="admin.php?page=doanhthu">DOANH THU</a></li>
         </ul>
     </nav>
 
@@ -58,6 +58,7 @@ switch ($page){
     case "upfile": require_once 'upfile.php'; break;
     case "thongvao": require_once 'thongbao.php'; break;
     case "khachhang": require_once 'khachhang.php'; break;
+    case "doanhthu": require_once 'doanhthu.php'; break;
     default: ;
 }
 
