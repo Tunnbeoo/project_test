@@ -4,7 +4,7 @@ $id = (int) $_GET['id'];}
 else $id=0;
 $loai = lay1loai($id);
 ?>
-<form action="sualoai_.php" method="post" id="frm1">
+<form action="sualoai.php" method="post" id="frm1">
 <h2>SUA LOẠI SẢN PHẨM</h2>
 <div> 
     <label>Tên loại </label> <input type="text" class="txt" value="<?php echo $loai[1]?>" name="ten_loai">
@@ -20,8 +20,8 @@ $loai = lay1loai($id);
 <div> <label></label> <button type="submit">Lưu thông tin loại</button> </div>
 </form>
 <style>
-    #frm1 { width: 800px; margin: auto; border: 1px solid black;}
-#frm1 h2 { background: black; color:white; padding: 10px; }
+    #frm1 { width: auto; margin: auto; border: 1px solid black;}
+#frm1 h2 { background: dimgrey; color:white; padding: 10px; }
 #frm1 div { padding: 10px 10px; border-bottom: 1px dotted black; }
 #frm1 label {display: inline-block;width:120px }
 #frm1 .txt { padding: 5px; width: calc(100% - 130px); outline: none;}
