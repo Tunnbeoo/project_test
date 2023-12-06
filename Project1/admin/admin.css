@@ -14,29 +14,22 @@ header {
     color: #fff;
     text-align: right;
     padding: 30px 0;
-    width: 100%;
-    left: 0px;
+    width: 1070px;
+    left: 400px;
     position: relative;
-    height: 50px;
+    height: 100px;
 }
 header img{
-    width: 60px;
-    height: 60px;
-    position: relative;
-}
-#logo{
-    right: 85%;
-    position: relative;
-    bottom: 10px;
-    height: 70px;
-    width: 70px;
-
+    width: 90px;
+    height: 90px;
+    top: 43px;
+    left: 1295px;
 }
 nav{
     width: 400px;
     display: flex;
     height: 837px;;
-    top: 0px;
+    top: -210px;
     position: relative;
     background-color: #eee;
 }
@@ -66,7 +59,7 @@ nav a {
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
-    width: 172px;
+    width: 355px;
     display:block
     
 }

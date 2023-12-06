@@ -1,6 +1,6 @@
 <?php
 try {
-  $sql = "SELECT id_sp, ten_sp, gia, hinh
+  $sql = "SELECT id_sp, ten_sp, gia, hinh, mota
    FROM sanpham
    WHERE anhien=1 AND hot=1 ORDER BY ngay DESC LIMIT 0,9";
   $sanphamnoibat = $conn->query($sql);
@@ -47,7 +47,7 @@ try {
         <div class="product">
           <a href="index.php?page=sp&id=<?php echo $sp[0] ?>"> <img src="<?php echo $sp[3] ?>"> </a>
           <h2><a href="index.php?page=sp&id=<?php echo $sp[0] ?>"><?php echo $sp[1] ?></a></h2>
-          <p>Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
+          <p><?php echo $sp[4] ?></p>
           <p class="price"><?php echo number_format($sp[2])  ?>VND</p>
           
 

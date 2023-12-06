@@ -1,8 +1,8 @@
 <?php 
-$ten_sp = trim(strip_tags($_POST['ten_sp']));
-$id_sp = (int) $_POST['id_sp'];
+$ten_loai = trim(strip_tags($_POST['ten_sp']));
+$id_loai = (int) $_POST['id_loai'];
 $anhien = (int) $_POST['anhien'];
 require_once "../functions.php";
-$kq = chensp($ten_sp, $id_sp, $anhien);
-if($kq == true) header('location: admin.php?page=thongbao');
+$kq = chensp($ten_sp, $id_loai, $anhien);
+if($kq == true) header('location: admin.php?page=thongvao');
 ?>

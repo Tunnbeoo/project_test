@@ -241,7 +241,7 @@
 
             <div class="clear space10"></div>
             <div align="right">
-              <input type="button" class="btn btn-blue" value="Tiếp tục mua hàng" onclick="location.href='/'">
+              <input type="button" class="btn btn-blue" value="Tiếp tục mua hàng" onclick="location.href='index.php'">
             </div>
             <div class="clear space10"></div>
             <div class="cart-left">

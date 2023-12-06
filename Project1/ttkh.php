@@ -166,14 +166,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                     </nav>
                 </div>
             </div>
-
+            <?php
+                if (isset($_SESSION['ho'])) {
+                 
+                    
+                
+                ?>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card mb-4">
                         <div class="card-body text-center">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
                                 alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-                            <h5 class="my-3">John Smith</h5>
+                            <h5 class="my-3"><?php echo "" . $_SESSION['ho'] . "" . $_SESSION['ten'] . ""?></h5>
                             <!-- <p class="text-muted mb-1">Full Stack Developer</p>
                             <p class="text-muted mb-4">Bay Area, San Francisco, CA</p> -->
                             <!-- <div class="d-flex justify-content-center mb-2">
@@ -184,7 +189,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                     </div>
 
                 </div>
-                <div class="col-lg-8">
+               <div class="col-lg-8">
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="row">
@@ -192,7 +197,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                                     <p class="mb-0">Họ và Tên</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Johnatan Smith</p>
+                                    <p class="text-muted mb-0"><?php echo "" . $_SESSION['ho'] . "" . $_SESSION['ten'] . ""?></p>
                                 </div>
                             </div>
                             <hr>
@@ -201,7 +206,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                                     <p class="mb-0">Email</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">example@example.com</p>
+                                    <p class="text-muted mb-0"><?php echo "" . $_SESSION['email'] . ""?></p>
                                 </div>
                             </div>
                             <hr>
@@ -226,6 +231,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                     </div>
 
                 </div>
+            <?php } 
+
+                            ?>
             </div>
         </div>
     </section>

@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
             <div id="chao">
                 <?php
                 if (isset($_SESSION['ho'])) {
-                    echo " " . $_SESSION['ho'] . "" . $_SESSION['ten'] . "<br>";
+                 ?> <a href="ttkh.php"> <?php echo " " . $_SESSION['ho'] . "" . $_SESSION['ten'] . "<br>"?></a><?php
                     echo " <a href='thoat.php'>Thoát</a>";
                 } else { ?><div class="align-items-center cart d-flex flex-column mt30 position-relative icon-user "
                     style="margin-top: 25px;">

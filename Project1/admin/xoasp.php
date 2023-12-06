@@ -5,6 +5,6 @@ if ( isset($_GET['id'])==true){
 }
 else $id=0;
 require_once "../functions.php";
-$kq = xoa1loai($id);
-if($kq==true) header("location: admin.php?page=dsloai")
+$kq = xoa1sp($id);
+if($kq==true) header("location: admin.php?page=dssanpham")
 ?>

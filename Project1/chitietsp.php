@@ -1,3 +1,4 @@
+
 <?php
 if (isset($_GET['id']) == true) {
   $id = $_GET['id'];
@@ -32,7 +33,8 @@ $sp = $kq->fetch();
           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>
           <p><strong>Cấu hình:</strong></p>
           <p>
-            <?php echo $sp['mota'] ?>
+            <?php echo $sp['mota']          
+            ?>
           </p>
         </div>
 
