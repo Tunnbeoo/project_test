@@ -1,16 +1,10 @@
-<?php
-if ( isset($_GET['id'])==true){
-$id = (int) $_GET['id'];}
-else $id=0;
-$loai = lay1sp($id);
-?>
-<form action="suasanpham_.php" method="post" id="frm1">
-<h2>SUA SẢN PHẨM</h2>
+<form action="themsp_.php" method="post" id="frm1">
+<h2>THÊM SẢN PHẨM</h2>
 <div> 
-    <label>Tên sản phẩm </label> <input type="text" class="txt" value="<?php echo $loai[1]?>" name="ten_loai">
+    <label>Tên sản phẩm </label> <input type="text" class="txt" value="" name="ten_sp">
 </div>
 <div> 
-    <label>Thứ tự </label> <input type="number" class="txt" min="1" name="thutu">
+    <label>id_sp </label> <input type="number" class="txt" min="1" name="id_sp">
 </div>
 <div> 
     <label>Ẩn hiện </label>

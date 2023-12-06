@@ -13,8 +13,6 @@
        <div><a href="xoaloai.php?id=<?=$row[0]?>">xoa</a>
        <a href="admin.php?page=sualoai&id=<?=$row[0]?>">sua
 
-      
-
        </a></div>
     </div><?php } ?>
 </div>

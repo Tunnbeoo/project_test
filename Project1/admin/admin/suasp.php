@@ -1,13 +1,13 @@
-<?php
+<?php 
 if ( isset($_GET['id'])==true){
 $id = (int) $_GET['id'];}
 else $id=0;
-$loai = lay1sp($id);
+$sp = lay1sp($id);
 ?>
-<form action="suasanpham_.php" method="post" id="frm1">
+<form action="suasp.php" method="post" id="frm1">
 <h2>SUA SẢN PHẨM</h2>
 <div> 
-    <label>Tên sản phẩm </label> <input type="text" class="txt" value="<?php echo $loai[1]?>" name="ten_loai">
+<label>Tên san pham </label> <input type="text" class="txt" value="<?php echo $sp[1]?>" name="ten_sp">
 </div>
 <div> 
     <label>Thứ tự </label> <input type="number" class="txt" min="1" name="thutu">
@@ -17,7 +17,7 @@ $loai = lay1sp($id);
     <input type="radio" value="0" name="anhien"> Ẩn
     <input type="radio" value="1" name="anhien" checked> Hiện
 </div>
-<div> <label></label> <button type="submit">Lưu thông san pham</button> </div>
+<div> <label></label> <button type="submit">Lưu san pham</button> </div>
 </form>
 <style>
     #frm1 { width: 800px; margin: auto; border: 1px solid black;}

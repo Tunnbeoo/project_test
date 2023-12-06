@@ -4,7 +4,7 @@ $id = (int) $_GET['id'];}
 else $id=0;
 $loai = lay1loai($id);
 ?>
-<form action="sualoai.php" method="post" id="frm1">
+<form action="sualoai_.php" method="post" id="frm1">
 <h2>SUA LOẠI SẢN PHẨM</h2>
 <div> 
     <label>Tên loại </label> <input type="text" class="txt" value="<?php echo $loai[1]?>" name="ten_loai">

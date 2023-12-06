@@ -2,7 +2,7 @@
 <div id="danhsach">
     <h1>Danh sách sản phẩm</h1>
     <div class="dshead">
-       <div>Id sản phẩm</div><div>Tên sản phẩm</div><div>Thứ tự</div><div>Ẩn hiện</div><div></div>
+       <div>Id sản phẩm</div><div>Tên sản phẩm</div><div>Ngày SX</div><div>Ẩn hiện</div><div></div>
     </div>
     <?php foreach($list as $row){?>
     <div class="dsdata">

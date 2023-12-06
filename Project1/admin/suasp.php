@@ -4,7 +4,7 @@ $id = (int) $_GET['id'];}
 else $id=0;
 $sp = lay1sp($id);
 ?>
-<form action="suasp.php" method="post" id="frm1">
+<form action="suasp_.php" method="post" id="frm1">
 <h2>SUA SẢN PHẨM</h2>
 <div> 
 <label>Tên san pham </label> <input type="text" class="txt" value="<?php echo $sp[1]?>" name="ten_sp">
