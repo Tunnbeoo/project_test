@@ -109,6 +109,17 @@ function listloaisp()
         die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
     }
 }
+function listkhachhang()
+{
+    global $conn;
+    try {
+        $sql = "SELECT id_user, ho , ten, email, dienthoai FROM users ORDER BY id_user ASC ";
+        $khachhang_arr = $conn->query($sql);
+        return $khachhang_arr;
+    } catch (PDOException $e) {
+        die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
+    }
+}
 function xoa1loai($id_loai)
 {
     global $conn;
@@ -125,6 +136,17 @@ function chenuser($ho, $ten, $email, $mk)
     global $conn;
     try {
         $sql = "INSERT INTO users SET ho='$ho', ten='$ten',email='$email',matkhau='$mk'";
+        $conn->exec($sql);
+        return true;
+    } catch (PDOException $e) {
+        die('loi thuc thi sql' . $e->getMessage() . "<br>" . $sql);
+    }
+}
+function xoakh($id_user)
+{
+    global $conn;
+    try {
+        $sql = "DELETE FROM users WHERE id_user=$id_user ";
         $conn->exec($sql);
         return true;
     } catch (PDOException $e) {

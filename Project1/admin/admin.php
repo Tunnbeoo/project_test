@@ -24,7 +24,7 @@ else $page = "" ?>
         <ul>
         <img src="/Project1/img/logokh.png" alt="">
             <li><a href="admin.php">TRANG CHỦ</a></li>
-            <li><a href="#">KHÁCH HÀNG</a></li>
+            <li><a href="admin.php?page=khachhang">KHÁCH HÀNG</a></li>
             <li> <a href="#">Quản lý loại </a>
             <ul>
             <li><a href="admin.php?page=dsloai">Danh sách loại</a></li>
@@ -57,6 +57,7 @@ switch ($page){
     case "thongbao": require_once 'thongbao.php'; break;
     case "upfile": require_once 'upfile.php'; break;
     case "thongvao": require_once 'thongbao.php'; break;
+    case "khachhang": require_once 'khachhang.php'; break;
     default: ;
 }
 
