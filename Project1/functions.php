@@ -54,7 +54,7 @@ function laysp_trongloai($id=1, $page_num = 1, $page_size = 9)
     global $conn;
     try {
         $start_row = ($page_num - 1) * $page_size;
-        $sql = "SELECT id_sp, ten_sp, gia,hinh,ngay
+        $sql = "SELECT id_sp, ten_sp, gia,hinh,mota,ngay
         FROM sanpham WHERE id_loai=$id 
         ORDER BY ngay DESC LIMIT $start_row, $page_size";
         $sp = $conn->query($sql);
