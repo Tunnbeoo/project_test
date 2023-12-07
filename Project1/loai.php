@@ -29,112 +29,112 @@ $loaisp_arr = layloaisp();
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell Inspiron">Dell Inspiron</a>
+                    <a href="index.php?page=loai&id=1" title="Dell Inspiron">Dell Inspiron</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell Precision">Dell Precision</a>
+                    <a href="index.php?page=loai&id=1" title="Dell Precision">Dell Precision</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell Latitude">Dell Latitude</a>
+                    <a href="index.php?page=loai&id=1" title="Dell Latitude">Dell Latitude</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell XPS">Dell XPS</a>
+                    <a href="index.php?page=loai&id=1" title="Dell XPS">Dell XPS</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell G-Seri">Dell G-Seri</a>
+                    <a href="index.php?page=loai&id=1" title="Dell G-Seri">Dell G-Seri</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell Vostro">Dell Vostro</a>
+                    <a href="index.php?page=loai&id=1" title="Dell Vostro">Dell Vostro</a>
                   </div>
                 </div>
               </div>
               <div class="danhmuc-2">
-                <a href="index.php?page=loai&id=10" title="Laptop Lenovo Mới" class="title-danhmuc-2">Laptop Lenovo Mới</a>
+                <a href="index.php?page=loai&id=2" title="Laptop Lenovo Mới" class="title-danhmuc-2">Laptop Lenovo Mới</a>
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=10" title="Lenovo Ideapad">Lenovo Ideapad</a>
+                    <a href="index.php?page=loai&id=2" title="Lenovo Ideapad">Lenovo Ideapad</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=10" title="Lenovo Legion">Lenovo Legion</a>
+                    <a href="index.php?page=loai&id=2" title="Lenovo Legion">Lenovo Legion</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=10" title="Lenovo ThinkBook">Lenovo
+                    <a href="index.php?page=loai&id=2" title="Lenovo ThinkBook">Lenovo
                       ThinkBook</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=10" title="Lenovo Thinkpad">Lenovo Thinkpad</a>
+                    <a href="index.php?page=loai&id=2" title="Lenovo Thinkpad">Lenovo Thinkpad</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=10" title="Lenovo Yoga">Lenovo Yoga</a>
+                    <a href="index.php?page=loai&id=2" title="Lenovo Yoga">Lenovo Yoga</a>
                   </div>
                 </div>
               </div>
               <div class="danhmuc-2">
-                <a href="index.php?page=loai&id=11" title="Laptop Acer Mới" class="title-danhmuc-2">Laptop Acer Mới</a>
+                <a href="index.php?page=loai&id=3" title="Laptop Acer Mới" class="title-danhmuc-2">Laptop Acer Mới</a>
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=11" title="Acer Aspire">Acer Aspire</a>
+                    <a href="index.php?page=loai&id=3" title="Acer Aspire">Acer Aspire</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=11" title="Acer Predator">Acer Predator</a>
+                    <a href="index.php?page=loai&id=3" title="Acer Predator">Acer Predator</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=11" title="Acer Nitro">Acer Nitro</a>
+                    <a href="index.php?page=loai&id=3" title="Acer Nitro">Acer Nitro</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=11" title="Acer Swift">Acer Swift</a>
+                    <a href="index.php?page=loai&id=3" title="Acer Swift">Acer Swift</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=11" title="Acer Spin">Acer Spin</a>
+                    <a href="index.php?page=loai&id=3" title="Acer Spin">Acer Spin</a>
                   </div>
                 </div>
               </div>
               <div class="danhmuc-2">
-                <a href="index.php?page=loai&id=9" title="Laptop HP Mới" class="title-danhmuc-2">Laptop
+                <a href="index.php?page=loai&id=4" title="Laptop HP Mới" class="title-danhmuc-2">Laptop
                   HP Mới</a>
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Elitebook">HP Elitebook</a>
+                    <a href="index.php?page=loai&id=4" title="HP Elitebook">HP Elitebook</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Omen">HP Omen</a>
+                    <a href="index.php?page=loai&id=4" title="HP Omen">HP Omen</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Spectre">HP Spectre</a>
+                    <a href="index.php?page=loai&id=4" title="HP Spectre">HP Spectre</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Envy">HP Envy</a>
+                    <a href="index.php?page=loai&id=4" title="HP Envy">HP Envy</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Pavilion">HP Pavilion</a>
+                    <a href="index.php?page=loai&id=4" title="HP Pavilion">HP Pavilion</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Zbook">HP Zbook</a>
+                    <a href="index.php?page=loai&id=4" title="HP Zbook">HP Zbook</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=9" title="HP Probook">HP Probook</a>
+                    <a href="index.php?page=loai&id=4" title="HP Probook">HP Probook</a>
                   </div>
                 </div>
               </div>
@@ -143,19 +143,19 @@ $loaisp_arr = layloaisp();
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="Asus Tuf">Asus Tuf</a>
+                    <a href="index.php?page=loai&id=5" title="Asus Tuf">Asus Tuf</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="Asus VivoBook">Asus VivoBook</a>
+                    <a href="index.php?page=loai&id=5" title="Asus VivoBook">Asus VivoBook</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="Asus ZenBook">Asus ZenBook</a>
+                    <a href="index.php?page=loai&id=5" title="Asus ZenBook">Asus ZenBook</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="Asus Rog">Asus Rog</a>
+                    <a href="index.php?page=loai&id=5" title="Asus Rog">Asus Rog</a>
                   </div>
                 </div>
               </div>

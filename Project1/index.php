@@ -146,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
                 require_once "search.php";
                 break;
             case "send-cart":
-                include_once "send-cart.php";
+                require_once "send-cart.php";
                 break;
             default:
                 require_once "home.php";

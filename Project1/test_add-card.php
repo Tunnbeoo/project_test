@@ -370,7 +370,7 @@
                 </div>
               </div>
 
-              <div class="product-actions-single">
+              <div class="product-actions-single" >
                 <button type="submit" id="btn-submit" class="action-button green"
                   style="color: #fff;text-transform: uppercase;font-weight: bold;background: #ff8f00;border: solid 1px #d27a0a;padding: 11px 40px;display: block;margin: 10px auto;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;cursor: pointer;">Gửi
                   đơn hàng</button>
