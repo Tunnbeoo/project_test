@@ -25,7 +25,7 @@ $loaisp_arr = layloaisp();
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=6" title="Dell Alienware">Dell Alienware</a>
+                    <a href="index.php?page=loai&id=1" title="Dell Alienware">Dell Alienware</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
