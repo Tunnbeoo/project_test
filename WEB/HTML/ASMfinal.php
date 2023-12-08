@@ -48,7 +48,7 @@ $conn = mysqli_connect("localhost", "root", "", "shop");
           </div>
         </div>
         <div class="admin_protest">
-          <li><a href="/PHP/admin/admin.php" title="Đăng ký" > Admin</a></li>
+          <li><a href="/PHP/admin/admin.php" title="Đăng ký"> Admin</a></li>
         </div>
       </div>
       <div class="cart">
@@ -248,7 +248,7 @@ $conn = mysqli_connect("localhost", "root", "", "shop");
         </div>
       </div>
       <div class="colum_bot_2">
-        <a >Xem thêm</a>
+        <a>Xem thêm</a>
       </div>
     </div>
   </div>
@@ -581,12 +581,14 @@ $conn = mysqli_connect("localhost", "root", "", "shop");
     <div>
       <img src="/img/528b91cfa29c7ffd85418f4b1e8cc8ce.svg" alt="">
       <h2>Bạn chưa có tài khoảng?</h2>
-      <h4>Hãy tạo ngay một tài khoản để sử dụng đầy đủ các tính năng, tích lũy ưu đãi khi thanh toán các sản phẩm và tham price vào chương trình Giới thiệu bạn bè nhận hoa hồng vĩnh viễn tại Divine Shop.</h4>
+      <h4>Hãy tạo ngay một tài khoản để sử dụng đầy đủ các tính năng, tích lũy ưu đãi khi thanh toán các sản phẩm
+        và tham price vào chương trình Giới thiệu bạn bè nhận hoa hồng vĩnh viễn tại Divine Shop.</h4>
       <div class="signup_1_1">
         <div class="signup_1_2">
           <a href="/WEB/HTML/formdk1.php">Đăng ký ngay</a>
         </div>
-        <div class="sigup_2_1" style="width: 280px; height: 100%; color: white; margin-left: 5px;">Hoặc bạn đã có tài khoảng?
+        <div class="sigup_2_1" style="width: 280px; height: 100%; color: white; margin-left: 5px;">Hoặc bạn đã
+          có tài khoảng?
           <a href="/WEB/HTML/formdn.php" style="color: #fff; margin-left: 5px;"><b> Đăng nhập</b></a>
         </div>
       </div>
@@ -652,7 +654,8 @@ $conn = mysqli_connect("localhost", "root", "", "shop");
         <div class="form-login-title1"><a href="">Đăng nhập</a></div>
         <div class="form-login-title2"><a href="">Đăng ký</a></div>
       </div>
-      <div class="form-login-des">Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận nhiều ưu đãi hấp dẫn</div>
+      <div class="form-login-des">Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận nhiều
+        ưu đãi hấp dẫn</div>
       <div class="form-close">
         <i class="fa-solid fa-x"></i>
       </div>
