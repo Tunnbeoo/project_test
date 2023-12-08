@@ -160,19 +160,19 @@ $loaisp_arr = layloaisp();
                 </div>
               </div>
               <div class="danhmuc-2">
-                <a href="index.php?page=loai&id=12" title="Laptop MSI Mới" class="title-danhmuc-2">Laptop MSI Mới</a>
+                <a href="index.php?page=loai&id=6" title="Laptop MSI Mới" class="title-danhmuc-2">Laptop MSI Mới</a>
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="MSI G-Seri">MSI G-Seri</a>
+                    <a href="index.php?page=loai&id=6" title="MSI G-Seri">MSI G-Seri</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="MSI Modern">MSI Modern</a>
+                    <a href="index.php?page=loai&id=6" title="MSI Modern">MSI Modern</a>
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="index.php?page=loai&id=12" title="MSI Bravo">MSI Bravo</a>
+                    <a href="index.php?page=loai&id=6" title="MSI Bravo">MSI Bravo</a>
                   </div>
                 </div>
               </div>
@@ -194,28 +194,28 @@ $loaisp_arr = layloaisp();
           <div class="sub_filter">
             <div class="list-unstyled sub_list-attr list_2col m-0 p-0 d-flex flex-wrap">
               <div class="danhmuc-2">
-                <a href="/surface-laptop.html" title="Surface Laptop" class="title-danhmuc-2">Surface
+                <a href="index.php?page=loai&id=7" title="Surface Laptop" class="title-danhmuc-2">Surface
                   Laptop</a>
                 <div class="danhmuc-3 d-flex flex-wrap">
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="/surface-laptop-3.html" title="Surface Laptop 3">Surface Laptop 3</a>
+                    <a href="index.php?page=loai&id=7" title="Surface Laptop 3">Surface Laptop 3</a>
 
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="/surface-laptop-4.html" title="Surface Laptop 4">Surface Laptop 4</a>
+                    <a href="index.php?page=loai&id=7" title="Surface Laptop 4">Surface Laptop 4</a>
 
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="/surface-laptop-go.html" title="Surface Laptop Go">Surface Laptop
+                    <a href="index.php?page=loai&id=7" title="Surface Laptop Go">Surface Laptop
                       Go</a>
 
                   </div>
                   <div class="d-flex align-items item-3">
                     <!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                    <a href="/surface-laptop-studio.html" title="Surface Laptop Studio">Surface
+                    <a href="index.php?page=loai&id=7" title="Surface Laptop Studio">Surface
                       Laptop Studio</a>
 
                   </div>
