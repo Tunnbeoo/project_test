@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>sign-in sign-up</title>
 </head>
 
 <body>
 
-<div class="container" id="container">
+    <div class="container" id="container">
         <div class="form-container sign-up">
             <div class="sign-out-sign-up">
                 <a href="index.php"><i class="fa-solid fa-right-from-bracket" style="position: absolute; top: 20px; right: 15px; font-size: 30px;"></i></a>
@@ -25,7 +25,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="ho" name="ho"required>
+                <input type="text" placeholder="ho" name="ho" required>
                 <input type="text" placeholder="ten" name="ten" required>
                 <input type="email" placeholder="Email" name="email">
                 <input type="password" placeholder="matkhau" name="matkhau">
@@ -73,51 +73,51 @@
 </html>
 
 <?php
-if(isset ($_POST['btn1']))
-{
+if (isset($_POST['btn1'])) {
     $email = trim(strip_tags($_POST['email']));
     $mk = trim(strip_tags($_POST['matkhau']));
     require_once "functions.php";
-    $kq = checkEmailPass($email,$mk);
+    $kq = checkEmailPass($email, $mk);
 
-if(session_status()=== PHP_SESSION_NONE) session_start();
-if(is_string($kq)==true){
-    $_SESSION['thongbao']=$kq;
-    header("location:thongbao.php");exit();
-}
-else {
-    $_SESSION['id_user']= $kq['id_user'];
-    $_SESSION['ho']= $kq['ho'];
-    $_SESSION['ten']= $kq['ten'];
-    $_SESSION['email']= $kq['email'];
-    if(isset($_SESSION['back']))
-    header("location:". $_SESSION['back']);
-    else header("location:index.php");
-    exit();
-}
+    if (session_status() === PHP_SESSION_NONE) session_start();
+    if (is_string($kq) == true) {
+        $_SESSION['thongbao'] = $kq;
+        header("location:thongbao.php");
+        exit();
+    } else {
+        $_SESSION['id_user'] = $kq['id_user'];
+        $_SESSION['ho'] = $kq['ho'];
+        $_SESSION['ten'] = $kq['ten'];
+        $_SESSION['email'] = $kq['email'];
+        if (isset($_SESSION['back']))
+            header("location:" . $_SESSION['back']);
+        else header("location:index.php");
+        exit();
+    }
 }
 ?>
 
 <?php
-if(isset ($_POST['btn']))
-{
+if (isset($_POST['btn'])) {
     $ho = trim(strip_tags($_POST['ho']));
     $ten = trim(strip_tags($_POST['ten']));
     $email = trim(strip_tags($_POST['email']));
     $mk = trim(strip_tags($_POST['matkhau']));
-$loi="";
-if(strlen($ho)<2||strlen($ten)<3) $loi.="ban can nhap du ho ten nhe <br>";
-if($email==""|| filter_var($email, FILTER_VALIDATE_EMAIL)==false ){
-    $loi.='ban chua nhap dung email<br>';
-}
-if(strlen($mk)<6) $loi.='mat khau ban qua ngan';
-if($loi!=""){
-    session_start(); $_SESSION['thongbao']=$loi;
-    header("location:thongbao.php");exit();
-}
+    $loi = "";
+    if (strlen($ho) < 2 || strlen($ten) < 3) $loi .= "ban can nhap du ho ten nhe <br>";
+    if ($email == "" || filter_var($email, FILTER_VALIDATE_EMAIL) == false) {
+        $loi .= 'ban chua nhap dung email<br>';
+    }
+    if (strlen($mk) < 6) $loi .= 'mat khau ban qua ngan';
+    if ($loi != "") {
+        session_start();
+        $_SESSION['thongbao'] = $loi;
+        header("location:thongbao.php");
+        exit();
+    }
     require_once "functions.php";
-    $mk= password_hash($mk, PASSWORD_BCRYPT);
-    $kq= chenuser($ho,$ten,$email,$mk);
-    if($kq=true) header("location: index.php?page=thongbao");
+    $mk = password_hash($mk, PASSWORD_BCRYPT);
+    $kq = chenuser($ho, $ten, $email, $mk);
+    if ($kq = true) header("location: index.php?page=thongbao");
 }
 ?>
