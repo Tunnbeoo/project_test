@@ -69,8 +69,8 @@
                 <div class="user-content hide-menu m-l-10">
                     <a href="#" class="show" id="Userdd" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="true">
-                        <h5 class="m-b-0 user-name font-medium">Steave Jobs <i class="fa fa-angle-down"></i></h5>
-                        <span class="op-5 user-email">varun@gmail.com</span>
+                            <!-- <h5 class="m-b-0 user-name font-medium">Steave Jobs <i class="fa fa-angle-down"></i></h5>
+                            <span class="op-5 user-email">varun@gmail.com</span> -->
                     </a>
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="Userdd"
                         style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(64.8px, 54.4px);"

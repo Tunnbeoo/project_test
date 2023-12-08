@@ -32,7 +32,7 @@ if (isset($_POST['btn'])){
 <div> 
 <style>
 #frmupload { width: 700px; margin: auto; border: 1px solid black; ;}
-#frmupload h2 { background: black; color:white; padding: 10px; margin: 0; }
+#frmupload h2 { background: darkblue; color:white; padding: 10px; margin: 0; }
 #frmupload > div { padding: 5px 10px;  }
 #frmupload label {display: inline-block;  width: 100px; font-size: 20px}
 #frmupload .txt { 
